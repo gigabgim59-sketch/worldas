@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>쇼펜하우어 『의지와 표상으로서의 세계』 — 개념 도표</title>
+<meta name="description" content="쇼펜하우어 『의지와 표상으로서의 세계』(Die Welt als Wille und Vorstellung, 홍성광 역) 개념 도표 — 세계의 근본 이분법, 4권의 삼중 축, 조감도·관계도 8·개념 트리.">
+<!-- ▽ 링크 미리보기 썸네일 — Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="쇼펜하우어 『의지와 표상으로서의 세계』 — 개념 도표">
+<meta property="og:description" content="세계의 근본 이분법 · 표상과 의지의 4중 고찰. 조감도 · 관계도 8 · 개념 트리.">
+<meta property="og:image" content="https://gigabgim59-sketch.github.io/schopenhauer/schopenhauer-www-thumbnail.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="쇼펜하우어 『의지와 표상으로서의 세계』 — 표상과 의지의 이분법">
+<meta property="og:url" content="https://gigabgim59-sketch.github.io/schopenhauer/">
+<meta property="og:site_name" content="개념 도표">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="쇼펜하우어 『의지와 표상으로서의 세계』 — 개념 도표">
+<meta name="twitter:description" content="세계의 근본 이분법 · 표상과 의지의 4중 고찰">
+<meta name="twitter:image" content="https://gigabgim59-sketch.github.io/schopenhauer/schopenhauer-www-thumbnail.png">
+<style>
+  :root{--bg:#faf9f6;--ink:#1f1e1b;--sub:#46443f;--hint:#9a978e;--line2:#cfccc2;
+    --base:#eef1f4;--base-bd:#b9c2cc;
+    --pr:#e8eef4;--pr-bd:#a8bcd0;    /* 표상 — 청 */
+    --wl:#efe3d2;--wl-bd:#d0b58a;    /* 의지 — 황갈(브론즈 톤) */
+    --id:#f6ede2;--id-bd:#d8be9a;    /* 이념·예술 — 소프트 골드 */
+    --et:#ede4ee;--et-bd:#c9b0cc;    /* 윤리·구원 — 연자주 */
+    --ng:#fbeee6;--ng-bd:#e8c5a0;    /* 부정·고통 */
+    --pos:#eef1e6;--pos-bd:#c2cca8;  /* 긍정 */}
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.7;}
+  .wrap{max-width:880px;margin:0 auto;padding:52px 24px 90px;}
+  header.book{text-align:center;margin-bottom:34px;padding-bottom:26px;border-bottom:1px solid var(--line2);}
+  header.book h1{font-size:24px;font-weight:600;margin:0 0 8px;letter-spacing:1px;}
+  header.book .sub{font-size:14px;color:var(--sub);margin:0;}
+  nav.toc{margin:0 0 40px;padding:18px 22px;border:1px solid var(--line2);border-radius:10px;background:#fffdf8;}
+  nav.toc h2{font-size:15px;font-weight:600;margin:0 0 10px;text-align:center;letter-spacing:1px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px;}
+  nav.toc a{display:block;text-decoration:none;color:var(--ink);padding:8px 10px;border-radius:7px;font-size:14px;}
+  nav.toc a:hover{background:#f1eee5;}
+  nav.toc .k{color:var(--hint);font-size:12px;margin-left:6px;}
+  section{margin:0 0 56px;scroll-margin-top:16px;}
+  h2.dp-h{font-size:19px;font-weight:600;margin:46px 0 14px;padding-bottom:9px;border-bottom:2px solid var(--line2);letter-spacing:.5px;}
+  h2.dp-h .sub{font-size:13px;font-weight:400;color:var(--hint);letter-spacing:0;}
+  h3.dp-h3{font-size:16px;font-weight:600;margin:36px 0 8px;color:#3a382f;}
+  .lead{font-size:14px;color:var(--sub);margin:0 0 14px;line-height:1.75;}
+  .note{font-size:12.5px;color:var(--hint);line-height:1.7;margin:10px 0 0;padding:10px 14px;background:#f4f2ec;border-radius:8px;}
+  .dp-svg{width:100%;height:auto;display:block;margin:6px 0 4px;border:1px solid var(--line2);border-radius:10px;background:#fff;padding:6px;}
+  .box{stroke-width:1;}
+  .b-base{fill:var(--base);stroke:var(--base-bd);}
+  .b-pr{fill:var(--pr);stroke:var(--pr-bd);}
+  .b-wl{fill:var(--wl);stroke:var(--wl-bd);}
+  .b-id{fill:var(--id);stroke:var(--id-bd);}
+  .b-et{fill:var(--et);stroke:var(--et-bd);}
+  .b-ng{fill:var(--ng);stroke:var(--ng-bd);}
+  .b-pos{fill:var(--pos);stroke:var(--pos-bd);}
+  .ln{stroke:#8a8578;stroke-width:1.2;fill:none;}
+  .ln-d{stroke:#8a8578;stroke-width:1.2;stroke-dasharray:4 3;fill:none;}
+  .t-tt{font-size:13px;font-weight:600;fill:#23221d;}
+  .t-tt2{font-size:12px;font-weight:600;fill:#23221d;}
+  .t-d{font-size:11.5px;fill:#46443f;}
+  .t-d2{font-size:10.5px;fill:#7a776e;}
+  .t-band{font-size:12.5px;font-weight:600;fill:#5a6b7a;}
+  .band-b{fill:#4a6a95;}
+  .band-o{fill:#a06f3a;}
+  .band-p{fill:#7a5a95;}
+  .band-r{fill:#9a5a5a;}
+  .band-g{fill:#5a7a5c;}
+  .t-flow{font-size:12px;font-weight:500;fill:#6a665c;}
+  .cat{margin:0 0 18px;border:1px solid var(--line2);border-radius:10px;overflow:hidden;background:#fff;}
+  .cat-head{display:flex;align-items:baseline;gap:10px;padding:10px 16px;background:#f3f1ea;border-bottom:1px solid var(--line2);}
+  .cat-no{font-size:12px;color:#fff;background:#8a8578;border-radius:50%;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;flex:none;}
+  .cat-title{font-size:15px;font-weight:600;}
+  .cat-han{font-family:"Noto Serif KR","Batang",serif;font-size:13px;color:var(--hint);margin-left:auto;}
+  .subcat{padding:8px 16px 4px;}
+  .sub-t{font-size:13px;font-weight:600;color:#5a584e;margin:6px 0 6px;}
+  .terms{display:flex;flex-wrap:wrap;gap:7px;padding:6px 16px 14px;}
+  .subcat .terms{padding:0 0 10px;}
+  .term{font-size:13px;padding:4px 10px;background:#f6f4ee;border:1px solid #e6e2d8;border-radius:14px;white-space:nowrap;}
+  .term b{font-family:"Noto Serif KR","Batang",serif;font-weight:600;margin-right:3px;}
+  .backtop{text-align:right;margin:8px 0 0;font-size:12px;}
+  .backtop a{color:var(--hint);text-decoration:none;}
+  footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line2);text-align:center;font-size:12px;color:var(--hint);}
+  @media print{html{scroll-behavior:auto;}nav.toc a:hover{background:none;}.backtop{display:none;}.dp-svg{break-inside:avoid;}.cat{break-inside:avoid;}.def-tip{display:none !important;}.def-hint{display:none !important;}.svg-modal{display:none !important;}}
+  .term.has-def{cursor:pointer;transition:background .15s,border-color .15s;}
+  .term.has-def:hover{background:#ede7d3;border-color:#c9bf9e;}
+  .term.has-def:focus{outline:2px solid #b8a980;outline-offset:1px;}
+  .term.has-def.active{background:#e6dcb8;border-color:#b8a980;}
+  .def-tip{position:fixed;z-index:200;max-width:380px;min-width:240px;
+    padding:14px 32px 14px 16px;background:#fffdf6;border:1px solid #c9bf9e;
+    border-radius:10px;box-shadow:0 6px 22px rgba(60,50,20,.14);
+    font-size:13.5px;line-height:1.68;color:var(--ink);display:none;
+    overscroll-behavior:contain;}
+  .def-tip.on{display:block;}
+  .def-tip .dt-h{font-family:"Noto Serif KR","Batang",serif;font-size:17px;
+    font-weight:600;margin:0 0 2px;color:#2e2c26;letter-spacing:.5px;}
+  .def-tip .dt-k{font-size:12px;color:var(--hint);margin:0 0 8px;}
+  .def-tip .dt-b{margin:0;font-size:13.5px;line-height:1.7;}
+  .def-tip .dt-c{margin:8px 0 0;font-size:11.5px;color:var(--hint);}
+  .def-tip .dt-x{position:absolute;top:6px;right:8px;font-size:18px;
+    color:var(--hint);cursor:pointer;background:none;border:none;
+    padding:2px 8px;line-height:1;border-radius:4px;}
+  .def-tip .dt-x:hover{color:var(--ink);background:#f1eee5;}
+  .def-hint{margin:-6px 0 18px;padding:9px 14px;background:#f4f0e2;
+    border:1px dashed #d9cfa8;border-radius:8px;font-size:12.5px;
+    color:#6a614a;text-align:center;}
+  .dp-svg-outer{position:relative;}
+  .dp-svg-wrap{margin:6px 0 4px;}
+  .svg-modal{position:fixed;inset:0;z-index:500;
+    background:rgba(20,18,14,.90);display:none;
+    padding:56px 8px 44px;overflow:hidden;
+    overscroll-behavior:contain;}
+  .svg-modal.on{display:flex;flex-direction:column;}
+  .sm-close{position:fixed;top:12px;right:12px;
+    width:44px;height:44px;border-radius:50%;
+    background:rgba(255,253,246,.95);border:none;
+    font:700 24px/1 -apple-system,BlinkMacSystemFont,sans-serif;
+    color:#3a382f;cursor:pointer;z-index:501;
+    box-shadow:0 2px 10px rgba(0,0,0,.3);}
+  .sm-close:hover{background:#fff;}
+  .sm-body{flex:1;min-height:0;
+    display:flex;align-items:center;justify-content:center;
+    overflow:auto;-webkit-overflow-scrolling:touch;}
+  .sm-body > svg{display:block;
+    max-width:100%;max-height:100%;
+    width:auto;height:auto;
+    background:#fff;padding:6px;border-radius:6px;
+    box-shadow:0 4px 20px rgba(0,0,0,.4);}
+  .sm-hint{color:#d6cfbe;font-size:12px;
+    text-align:center;padding:10px 12px 0;
+    flex-shrink:0;letter-spacing:.3px;}
+  .sm-hint b{color:#f0e8d0;font-weight:600;}
+  @media (orientation:landscape){
+    .sm-hint{display:none;}
+    .svg-modal{padding:44px 8px 20px;}
+  }
+  @media (orientation:landscape) and (max-height:500px){
+    .dp-svg-outer::after{display:none;}
+    .dp-svg-outer{cursor:zoom-in;}
+  }
+  @media (max-width:640px){
+    .wrap{padding:24px 12px 60px;}
+    body{font-size:15px;line-height:1.72;}
+    header.book h1{font-size:20px;letter-spacing:.5px;}
+    header.book .sub{font-size:13px;}
+    nav.toc{padding:14px 14px;margin-bottom:30px;}
+    nav.toc h2{font-size:14px;}
+    nav.toc a{font-size:13.5px;padding:9px 8px;}
+    nav.toc .k{display:block;margin-left:0;margin-top:2px;font-size:11.5px;}
+    h2.dp-h{font-size:17.5px;margin:36px 0 12px;}
+    h2.dp-h .sub{display:block;margin-top:2px;}
+    h3.dp-h3{font-size:15px;margin:28px 0 8px;}
+    .lead{font-size:14px;line-height:1.72;}
+    .note{font-size:12.5px;padding:9px 12px;}
+    .cat{margin:0 0 14px;}
+    .cat-head{padding:10px 12px;gap:8px;}
+    .cat-han{font-size:12px;}
+    .cat-title{font-size:14.5px;}
+    .subcat{padding:6px 12px 2px;}
+    .sub-t{font-size:12.5px;}
+    .terms{padding:4px 12px 12px;gap:6px;}
+    .term{font-size:13px;padding:6px 11px;}
+    .def-hint{font-size:12.5px;padding:10px 12px;}
+    .dp-svg-outer{margin:8px 0 4px;cursor:zoom-in;}
+    .dp-svg-wrap{overflow:visible;margin:0;padding:0;}
+    .dp-svg{min-width:0;width:100%;max-width:100%;margin:0;
+      transition:box-shadow .15s;}
+    .dp-svg-outer:active .dp-svg{box-shadow:0 0 0 2px #b8a980;}
+    .dp-svg-outer::after{
+      content:'⤢  탭해서 크게';
+      position:absolute;top:10px;right:10px;
+      background:rgba(255,253,246,.95);
+      border:1px solid #d8c4a8;border-radius:14px;
+      padding:5px 11px 5px 10px;font-size:11.5px;font-weight:500;
+      color:#6a614a;pointer-events:none;z-index:2;
+      box-shadow:0 1px 4px rgba(60,50,20,.12);
+      letter-spacing:.2px;}
+    .def-tip{position:fixed;left:0 !important;right:0 !important;
+      bottom:0;top:auto !important;
+      max-width:none;min-width:0;width:100%;
+      border-radius:16px 16px 0 0;
+      max-height:72vh;overflow-y:auto;
+      padding:22px 50px 26px 18px;
+      box-shadow:0 -8px 28px rgba(60,50,20,.22);
+      border-left:none;border-right:none;border-bottom:none;
+      font-size:14.5px;line-height:1.72;}
+    .def-tip .dt-h{font-size:18px;}
+    .def-tip .dt-k{font-size:12.5px;}
+    .def-tip .dt-b{font-size:14.5px;line-height:1.75;}
+    .def-tip .dt-x{top:10px;right:12px;font-size:26px;padding:4px 12px;}
+    .term.has-def{-webkit-tap-highlight-color:rgba(184,169,128,.3);}
+  }
+</style></head><body><div class="wrap" id="top">
+<header class="book"><h1>쇼펜하우어 『의지와 표상으로서의 세계』 — 개념 도표</h1>
+<p class="sub">세계의 근본 이분법 · 표상 → 의지 → 이념·예술 → 삶에의 의지의 긍정과 부정 (A. Schopenhauer · 홍성광 역, 초판 1819)</p></header>
+<nav class="toc"><h2>도표 목차</h2><ol>
+<li><a href="#overview">Ⅰ. 전체 조감도<span class="k">— 4권의 구조와 세계의 두 얼굴</span></a></li>
+<li><a href="#rel">Ⅱ. 핵심 주제별 관계도<span class="k">— 근거율·의지의 객관화·예술·구원</span></a></li>
+<li><a href="#tree">Ⅲ. 전체 개념 트리<span class="k">— 개념어 · 클릭 시 설명</span></a></li>
+</ol></nav>
+
+<section id="overview"><h2 class="dp-h">Ⅰ. 전체 조감도 <span class="sub">— 4권의 구조와 세계의 두 얼굴</span></h2>
+<p class="lead">쇼펜하우어의 근본 명제는 하나다. <b>"세계는 나의 표상이다"</b>이면서 동시에 <b>"세계는 의지다"</b>. 세계는 우리에게 <b>표상(Vorstellung)</b>으로 나타나지만, 그 안쪽에서 세계 자체는 <b>의지(Wille)</b>다. 4권의 저작은 이 두 얼굴을 <b>2×2 교차 구조</b>로 전개한다 — 표상의 이론적 고찰(1권)과 의지의 이론적 고찰(2권), 그리고 예술을 통한 표상의 심미적 고찰(3권)과 윤리·구원을 통한 의지의 실천적 고찰(4권).</p>
+<svg viewBox="0 0 760 620" class="dp-svg" role="img" aria-label="세계의 두 얼굴 조감도">
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker>
+  </defs>
+
+  <text x="380" y="28" text-anchor="middle" class="t-band band-o">"세계는 나의 표상이다" · "세계는 의지다"</text>
+  <rect x="160" y="42" width="440" height="52" rx="10" class="box b-id"/>
+  <text x="380" y="66" text-anchor="middle" class="t-tt">현상(표상) 뒤의 사물 자체는 의지다</text>
+  <text x="380" y="85" text-anchor="middle" class="t-d2">칸트의 물자체를 이름 없는 미지에서 이름있는 실재로 규정</text>
+
+  <text x="380" y="122" text-anchor="middle" class="t-band">4권의 교차 구조 — 표상/의지 × 이론/실천</text>
+
+  <!-- 2x2 격자 -->
+  <text x="200" y="148" text-anchor="middle" class="t-tt2" fill="#5a6b7a">이론적 고찰</text>
+  <text x="560" y="148" text-anchor="middle" class="t-tt2" fill="#7a5a5a">실천·심미적 고찰</text>
+
+  <!-- 표상 행 -->
+  <text x="30" y="200" text-anchor="middle" class="t-tt2" fill="#4a6a95" transform="rotate(-90, 30, 200)">표상 (Vorstellung)</text>
+
+  <rect x="60" y="164" width="300" height="106" rx="10" class="box b-pr"/>
+  <text x="210" y="188" text-anchor="middle" class="t-tt">제1권 · 제1고찰</text>
+  <text x="210" y="207" text-anchor="middle" class="t-d">근거율에 <tspan font-weight="700">종속</tspan>된 표상</text>
+  <text x="210" y="224" text-anchor="middle" class="t-d">경험과 학문의 대상</text>
+  <text x="210" y="243" text-anchor="middle" class="t-d2">주관-객관 · 시공 · 인과 · 지성·이성</text>
+  <text x="210" y="261" text-anchor="middle" class="t-d2">§1–16 · 세계는 나의 표상</text>
+
+  <rect x="400" y="164" width="300" height="106" rx="10" class="box b-id"/>
+  <text x="550" y="188" text-anchor="middle" class="t-tt">제3권 · 제2고찰</text>
+  <text x="550" y="207" text-anchor="middle" class="t-d">근거율과 <tspan font-weight="700">무관한</tspan> 표상</text>
+  <text x="550" y="224" text-anchor="middle" class="t-d">플라톤의 이데아·예술의 대상</text>
+  <text x="550" y="243" text-anchor="middle" class="t-d2">천재 · 순수 인식 주관 · 미와 숭고</text>
+  <text x="550" y="261" text-anchor="middle" class="t-d2">§30–52 · 음악은 의지의 직접적 모사</text>
+
+  <!-- 의지 행 -->
+  <text x="30" y="380" text-anchor="middle" class="t-tt2" fill="#8a5a2a" transform="rotate(-90, 30, 380)">의지 (Wille)</text>
+
+  <rect x="60" y="290" width="300" height="106" rx="10" class="box b-wl"/>
+  <text x="210" y="314" text-anchor="middle" class="t-tt">제2권 · 제1고찰</text>
+  <text x="210" y="333" text-anchor="middle" class="t-d">의지의 <tspan font-weight="700">객관화</tspan></text>
+  <text x="210" y="350" text-anchor="middle" class="t-d">사물 자체로서의 의지</text>
+  <text x="210" y="369" text-anchor="middle" class="t-d2">신체 = 의지의 외적 발현 · 자연력 · 이념</text>
+  <text x="210" y="387" text-anchor="middle" class="t-d2">§17–29 · 맹목적·무한·목표 없는 의지</text>
+
+  <rect x="400" y="290" width="300" height="106" rx="10" class="box b-et"/>
+  <text x="550" y="314" text-anchor="middle" class="t-tt">제4권 · 제2고찰</text>
+  <text x="550" y="333" text-anchor="middle" class="t-d">삶에의 의지의 <tspan font-weight="700">긍정과 부정</tspan></text>
+  <text x="550" y="350" text-anchor="middle" class="t-d">자기 인식에 이른 의지의 윤리·구원</text>
+  <text x="550" y="369" text-anchor="middle" class="t-d2">이기심 · 연민 · 정의 · 금욕</text>
+  <text x="550" y="387" text-anchor="middle" class="t-d2">§53–71 · 성자의 삶 · 세계는 무無</text>
+
+  <!-- 위→아래 관통 화살표: 표상은 의지의 나타남 -->
+  <path d="M210,272 L210,288" class="ln" marker-end="url(#ar)"/>
+  <path d="M550,272 L550,288" class="ln" marker-end="url(#ar)"/>
+  <text x="210" y="285" text-anchor="middle" class="t-d2" fill="#a06f3a">표상은 의지의 드러남</text>
+  <text x="550" y="285" text-anchor="middle" class="t-d2" fill="#a06f3a">예술 → 윤리로 심화</text>
+
+  <!-- 좌→우 화살표: 이론에서 심미·실천으로 -->
+  <path d="M360,217 L400,217" class="ln" marker-end="url(#ar)"/>
+  <path d="M360,343 L400,343" class="ln" marker-end="url(#ar)"/>
+
+  <text x="380" y="420" text-anchor="middle" class="t-flow">2권이 1권의 진리(사물 자체 = 의지)를 밝히고, 3·4권은 그 의지의 <tspan font-weight="700">일시적 해방</tspan>(예술)과 <tspan font-weight="700">영구적 지양</tspan>(금욕)을 다룬다.</text>
+
+  <!-- 세 문화적 뿌리 -->
+  <text x="380" y="454" text-anchor="middle" class="t-band band-p">세 문화적 뿌리</text>
+  <g>
+   <rect x="30" y="470" width="220" height="60" rx="9" class="box b-base"/>
+   <text x="140" y="492" text-anchor="middle" class="t-tt2">칸트 (사물 자체)</text>
+   <text x="140" y="512" text-anchor="middle" class="t-d2">현상/물자체 이분법의 계승</text>
+
+   <rect x="270" y="470" width="220" height="60" rx="9" class="box b-base"/>
+   <text x="380" y="492" text-anchor="middle" class="t-tt2">플라톤 (이데아)</text>
+   <text x="380" y="512" text-anchor="middle" class="t-d2">의지의 객관화 단계 = 이데아</text>
+
+   <rect x="510" y="470" width="220" height="60" rx="9" class="box b-base"/>
+   <text x="620" y="492" text-anchor="middle" class="t-tt2">인도·불교 (마야·열반)</text>
+   <text x="620" y="512" text-anchor="middle" class="t-d2">현상=마야의 베일 / 구원=의지 부정</text>
+  </g>
+
+  <!-- 결론 -->
+  <rect x="140" y="548" width="480" height="60" rx="10" class="box b-et"/>
+  <text x="380" y="572" text-anchor="middle" class="t-tt">"의지가 사라진 자에게 세계는 무(無)다"</text>
+  <text x="380" y="591" text-anchor="middle" class="t-d2">§71 · 저작의 마지막 문장 · 성자·부처의 내적 시선</text>
+</svg>
+<p class="note">※ 이 저작은 세계를 <b>바깥에서 설명</b>하지 않는다. 세계는 <b>이미 주관 안에</b> 표상으로 있고, 그 주관 자신이 자기 신체를 통해 자기가 <b>의지임</b>을 알아낸다 — 이 자기 인식이 저작의 결정적 회전점이다(§18). 여기서 데카르트·칸트 이래의 인식론적 자기의식이 <b>형이상학적 의지의 자기의식</b>으로 심화되며, 이후 니체·프로이트·베르그송에 걸치는 큰 흐름의 원류가 마련된다.</p>
+</section>
+<div class="backtop"><a href="#top">↑ 목차</a></div>
+<section id="rel"><h2 class="dp-h">Ⅱ. 핵심 주제별 관계도 <span class="sub">— 근거율·의지의 객관화·예술·구원</span></h2>
+
+<h3 class="dp-h3">① 세계의 두 얼굴 — 표상과 의지의 이분법</h3>
+<p class="lead">쇼펜하우어의 첫 명제 "세계는 나의 표상이다"(§1)에는 이미 그 짝인 "세계는 의지다"(§18)가 함축되어 있다. 세계는 <b>바깥과 안</b>의 두 얼굴을 가진다. <b>바깥</b>: 표상 — 주관에 대한 객관의 나타남. <b>안</b>: 의지 — 그 나타남을 밖으로 밀어내는 맹목적 힘. 신체가 이 두 얼굴을 자기 안에 함께 지니고 있어 우리는 세계의 안쪽을 알 수 있다.</p>
+<svg viewBox="0 0 760 420" class="dp-svg" role="img" aria-label="표상과 의지의 이분법">
+  <defs><marker id="ar2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="30" y="20" width="320" height="52" rx="10" class="box b-pr"/>
+  <text x="190" y="44" text-anchor="middle" class="t-tt">세계는 나의 표상 (§1)</text>
+  <text x="190" y="63" text-anchor="middle" class="t-d2">주관 앞에 나타난 객관 · 인식의 대상</text>
+
+  <rect x="410" y="20" width="320" height="52" rx="10" class="box b-wl"/>
+  <text x="570" y="44" text-anchor="middle" class="t-tt">세계는 나의 의지 (§18)</text>
+  <text x="570" y="63" text-anchor="middle" class="t-d2">현상 뒤의 사물 자체 · 맹목적 충동</text>
+
+  <text x="190" y="98" text-anchor="middle" class="t-band">표상의 특성</text>
+  <text x="570" y="98" text-anchor="middle" class="t-band band-o">의지의 특성</text>
+
+  <g>
+   <rect x="30" y="110" width="150" height="34" rx="6" class="box b-base"/><text x="105" y="132" text-anchor="middle" class="t-tt2">주관-객관 분열</text>
+   <rect x="200" y="110" width="150" height="34" rx="6" class="box b-base"/><text x="275" y="132" text-anchor="middle" class="t-tt2">공간·시간·인과</text>
+   <rect x="30" y="148" width="150" height="34" rx="6" class="box b-base"/><text x="105" y="170" text-anchor="middle" class="t-tt2">복수성 · 개별화</text>
+   <rect x="200" y="148" width="150" height="34" rx="6" class="box b-base"/><text x="275" y="170" text-anchor="middle" class="t-tt2">근거율 종속</text>
+
+   <rect x="410" y="110" width="150" height="34" rx="6" class="box b-base"/><text x="485" y="132" text-anchor="middle" class="t-tt2">주관-객관 없음</text>
+   <rect x="580" y="110" width="150" height="34" rx="6" class="box b-base"/><text x="655" y="132" text-anchor="middle" class="t-tt2">시공 밖 · 무인과</text>
+   <rect x="410" y="148" width="150" height="34" rx="6" class="box b-base"/><text x="485" y="170" text-anchor="middle" class="t-tt2">하나 · 개별화 없음</text>
+   <rect x="580" y="148" width="150" height="34" rx="6" class="box b-base"/><text x="655" y="170" text-anchor="middle" class="t-tt2">근거율 밖</text>
+  </g>
+
+  <text x="380" y="216" text-anchor="middle" class="t-band band-p">두 얼굴을 잇는 열쇠 — 신체(Leib)</text>
+
+  <rect x="140" y="230" width="480" height="80" rx="10" class="box b-id"/>
+  <text x="380" y="254" text-anchor="middle" class="t-tt">나의 신체는 두 방식으로 주어져 있다</text>
+  <text x="380" y="275" text-anchor="middle" class="t-d">밖으로 보면 <tspan font-weight="700">공간 안의 표상</tspan>(다른 물체와 같은), 안으로 느끼면 <tspan font-weight="700">의지의 발현</tspan></text>
+  <text x="380" y="295" text-anchor="middle" class="t-d2">이 이중 소여가 우리에게 세계 자체가 의지임을 알게 하는 유일한 창(§18)</text>
+
+  <text x="380" y="336" text-anchor="middle" class="t-flow">"나는 나의 몸이다" — 신체를 통해 세계의 안쪽으로 들어가는 열쇠</text>
+  <text x="380" y="358" text-anchor="middle" class="t-d2">밖의 다른 사물도 같은 원리로 <tspan font-weight="700">의지의 나타남</tspan>이라고 유비적으로 알 수 있다 — 인식의 일반화.</text>
+  <text x="380" y="380" text-anchor="middle" class="t-d2">이 <tspan font-weight="700">내적 통로</tspan>가 없다면 사물 자체는 칸트에게서처럼 영원히 미지로 남았을 것이다.</text>
+  <text x="380" y="402" text-anchor="middle" class="t-d2">쇼펜하우어의 결정적 형이상학적 진일보가 이 지점이다.</text>
+</svg>
+
+<h3 class="dp-h3">② 근거율의 네 뿌리 — 표상 세계의 뼈대</h3>
+<p class="lead">쇼펜하우어의 박사학위논문 『충분근거율의 네 뿌리에 대하여』(1813)가 이 저작 1권의 전제다. <b>"모든 것에는 왜인가의 이유가 있다"</b>는 라이프니츠의 충분근거율은 하나의 원리처럼 보이나 실은 표상의 종류에 따라 <b>네 갈래</b>로 갈라진다. 각 뿌리는 표상의 각 계급을 지배한다.</p>
+<svg viewBox="0 0 760 460" class="dp-svg" role="img" aria-label="근거율의 네 뿌리">
+  <defs><marker id="ar3" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="200" y="16" width="360" height="52" rx="10" class="box b-pr"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">충분근거율 (Satz vom zureichenden Grund)</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">"이유 없이 있는 것은 없다"의 형이상학적 원리</text>
+
+  <line x1="380" y1="72" x2="380" y2="94" class="ln"/>
+  <text x="380" y="108" text-anchor="middle" class="t-band">네 갈래로 갈라짐 — 표상의 각 계급마다</text>
+
+  <g>
+   <rect x="30" y="126" width="170" height="118" rx="10" class="box b-pr"/>
+   <text x="115" y="150" text-anchor="middle" class="t-tt2">Ⅰ. 생성의 근거율</text>
+   <text x="115" y="168" text-anchor="middle" class="t-d">principium fiendi</text>
+   <text x="115" y="187" text-anchor="middle" class="t-d2">인과성(Kausalität)</text>
+   <text x="115" y="205" text-anchor="middle" class="t-d2">경험적 표상 계급</text>
+   <text x="115" y="223" text-anchor="middle" class="t-d2">→ 자연과학의 대상</text>
+   <text x="115" y="239" text-anchor="middle" class="t-d2">지성(Verstand)의 관할</text>
+
+   <rect x="210" y="126" width="170" height="118" rx="10" class="box b-pr"/>
+   <text x="295" y="150" text-anchor="middle" class="t-tt2">Ⅱ. 인식의 근거율</text>
+   <text x="295" y="168" text-anchor="middle" class="t-d">principium cognoscendi</text>
+   <text x="295" y="187" text-anchor="middle" class="t-d2">전제와 결론</text>
+   <text x="295" y="205" text-anchor="middle" class="t-d2">추상 표상 계급 (개념)</text>
+   <text x="295" y="223" text-anchor="middle" class="t-d2">→ 논리학의 대상</text>
+   <text x="295" y="239" text-anchor="middle" class="t-d2">이성(Vernunft)의 관할</text>
+
+   <rect x="390" y="126" width="170" height="118" rx="10" class="box b-pr"/>
+   <text x="475" y="150" text-anchor="middle" class="t-tt2">Ⅲ. 존재의 근거율</text>
+   <text x="475" y="168" text-anchor="middle" class="t-d">principium essendi</text>
+   <text x="475" y="187" text-anchor="middle" class="t-d2">공간·시간의 부분 관계</text>
+   <text x="475" y="205" text-anchor="middle" class="t-d2">순수 직관의 계급</text>
+   <text x="475" y="223" text-anchor="middle" class="t-d2">→ 수학의 대상</text>
+   <text x="475" y="239" text-anchor="middle" class="t-d2">감성적 직관의 관할</text>
+
+   <rect x="570" y="126" width="170" height="118" rx="10" class="box b-pr"/>
+   <text x="655" y="150" text-anchor="middle" class="t-tt2">Ⅳ. 행위의 근거율</text>
+   <text x="655" y="168" text-anchor="middle" class="t-d">principium agendi</text>
+   <text x="655" y="187" text-anchor="middle" class="t-d2">동기(Motivation)</text>
+   <text x="655" y="205" text-anchor="middle" class="t-d2">자기의식의 계급</text>
+   <text x="655" y="223" text-anchor="middle" class="t-d2">→ 심리·윤리의 대상</text>
+   <text x="655" y="239" text-anchor="middle" class="t-d2">내감(內感)의 관할</text>
+  </g>
+
+  <text x="380" y="278" text-anchor="middle" class="t-band band-r">중요한 두 결론</text>
+
+  <rect x="30" y="292" width="340" height="70" rx="9" class="box b-ng"/>
+  <text x="200" y="314" text-anchor="middle" class="t-tt2">① 근거율은 <tspan font-weight="700">표상 세계 안에서만</tspan> 유효</text>
+  <text x="200" y="334" text-anchor="middle" class="t-d">사물 자체(의지)에 근거율을 적용하는 것은 근본적 오류</text>
+  <text x="200" y="352" text-anchor="middle" class="t-d2">"왜 세계가 있는가"·"의지의 목적은 무엇인가"는 무의미한 물음</text>
+
+  <rect x="390" y="292" width="340" height="70" rx="9" class="box b-ng"/>
+  <text x="560" y="314" text-anchor="middle" class="t-tt2">② 신 존재 우주론적 증명 반박</text>
+  <text x="560" y="334" text-anchor="middle" class="t-d">"모든 것에 원인이 있으므로 최초 원인이 있다"는 논증은</text>
+  <text x="560" y="352" text-anchor="middle" class="t-d2">근거율을 세계 밖으로 확대 적용한 자기 모순</text>
+
+  <text x="380" y="392" text-anchor="middle" class="t-flow">칸트의 4범주(양·질·관계·양상)를 쇼펜하우어는 <tspan font-weight="700">인과 하나</tspan>로 축약한다.</text>
+  <text x="380" y="414" text-anchor="middle" class="t-d2">인과성이 곧 지성의 기능이고, 나머지 범주는 파생물이거나 논리에 속한다는 대담한 재편이다.</text>
+  <text x="380" y="438" text-anchor="middle" class="t-d2">이 축약이 옳은가는 논쟁의 여지가 크지만, 쇼펜하우어 형이상학의 철학적 저력을 응축한 대목이다.</text>
+</svg>
+
+<h3 class="dp-h3">③ 주관·객관의 상호규정 — 표상의 구조</h3>
+<p class="lead">표상 세계의 첫 규정은 <b>주관과 객관의 상호 분열</b>이다. 그러나 이 둘은 실체가 아니라 <b>서로를 조건짓는 두 계기</b>다. 주관 없이 객관 없고, 객관 없이 주관 없다. 이 둘의 통일이 곧 표상이며, 그 통일 뒤에 다시 하나의 의지가 있다.</p>
+<svg viewBox="0 0 760 400" class="dp-svg" role="img" aria-label="주관과 객관의 상호규정">
+  <defs><marker id="ar4" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="80" y="20" width="260" height="66" rx="10" class="box b-pr"/>
+  <text x="210" y="44" text-anchor="middle" class="t-tt">주관(Subjekt)</text>
+  <text x="210" y="63" text-anchor="middle" class="t-d2">"모든 것을 인식하고 아무것에도 인식되지 않는 것"</text>
+  <text x="210" y="80" text-anchor="middle" class="t-d2">시공 밖 · 개별화 없음 · 다수 아님</text>
+
+  <rect x="420" y="20" width="260" height="66" rx="10" class="box b-pr"/>
+  <text x="550" y="44" text-anchor="middle" class="t-tt">객관(Objekt)</text>
+  <text x="550" y="63" text-anchor="middle" class="t-d2">"주관에게 인식되는 모든 것"</text>
+  <text x="550" y="80" text-anchor="middle" class="t-d2">시공 안 · 다수 · 근거율 종속</text>
+
+  <path d="M340,52 L420,52" class="ln" marker-end="url(#ar4)"/>
+  <path d="M420,60 L340,60" class="ln" marker-end="url(#ar4)"/>
+  <text x="380" y="42" text-anchor="middle" class="t-d2">상호 조건</text>
+
+  <text x="380" y="108" text-anchor="middle" class="t-band">주관-객관 대립 안에서의 인식 능력</text>
+  <g>
+   <rect x="30" y="122" width="220" height="80" rx="9" class="box b-base"/>
+   <text x="140" y="144" text-anchor="middle" class="t-tt2">감성 (Sinnlichkeit)</text>
+   <text x="140" y="163" text-anchor="middle" class="t-d">공간·시간의 순수 직관</text>
+   <text x="140" y="181" text-anchor="middle" class="t-d2">→ 존재의 근거율</text>
+   <text x="140" y="197" text-anchor="middle" class="t-d2">수학이 이 뿌리에 있음</text>
+
+   <rect x="270" y="122" width="220" height="80" rx="9" class="box b-base"/>
+   <text x="380" y="144" text-anchor="middle" class="t-tt2">지성 (Verstand)</text>
+   <text x="380" y="163" text-anchor="middle" class="t-d">인과성 하나의 기능</text>
+   <text x="380" y="181" text-anchor="middle" class="t-d2">→ 생성의 근거율</text>
+   <text x="380" y="197" text-anchor="middle" class="t-d2">경험 세계의 구성</text>
+
+   <rect x="510" y="122" width="220" height="80" rx="9" class="box b-base"/>
+   <text x="620" y="144" text-anchor="middle" class="t-tt2">이성 (Vernunft)</text>
+   <text x="620" y="163" text-anchor="middle" class="t-d">개념 형성 능력</text>
+   <text x="620" y="181" text-anchor="middle" class="t-d2">→ 인식의 근거율</text>
+   <text x="620" y="197" text-anchor="middle" class="t-d2">추상 지식 · 논리 · 학문</text>
+  </g>
+
+  <text x="380" y="232" text-anchor="middle" class="t-band band-b">쇼펜하우어의 재편 — 칸트와의 결정적 차이</text>
+
+  <rect x="30" y="248" width="340" height="88" rx="9" class="box b-ng"/>
+  <text x="200" y="270" text-anchor="middle" class="t-tt2">지성은 <tspan font-weight="700">동물도</tspan> 가진다</text>
+  <text x="200" y="290" text-anchor="middle" class="t-d">인과성 인식(=지성)은 이성 이전의 능력</text>
+  <text x="200" y="308" text-anchor="middle" class="t-d">외부 세계는 이성이 아니라 지성이 구성</text>
+  <text x="200" y="326" text-anchor="middle" class="t-d2">→ 칸트의 오성/이성 이분을 근본적으로 재편</text>
+
+  <rect x="390" y="248" width="340" height="88" rx="9" class="box b-pos"/>
+  <text x="560" y="270" text-anchor="middle" class="t-tt2">이성은 <tspan font-weight="700">인간만</tspan>이 가진다</text>
+  <text x="560" y="290" text-anchor="middle" class="t-d">추상 개념 형성이 이성의 본질</text>
+  <text x="560" y="308" text-anchor="middle" class="t-d">언어·학문·계획·역사가 여기서 가능</text>
+  <text x="560" y="326" text-anchor="middle" class="t-d2">→ 그러나 이성은 새 진리를 만들어내지 못한다(도구)</text>
+
+  <text x="380" y="364" text-anchor="middle" class="t-flow">지성이 근원적 앎을 주고, 이성은 그것을 <tspan font-weight="700">개념으로 저장·전달·조합</tspan>할 뿐이다.</text>
+  <text x="380" y="386" text-anchor="middle" class="t-d2">이 재편이 쇼펜하우어 인식론의 특징이자 낭만주의·베르그송·반이성주의의 흐름과 이어지는 지점이다.</text>
+</svg>
+
+<h3 class="dp-h3">④ 의지의 객관화 — 자연력에서 이념·개체로</h3>
+<p class="lead">2권의 핵심. 사물 자체인 의지는 <b>하나</b>이지만, 표상 세계에 나타날 때는 <b>여러 단계</b>로 <b>객관화</b>된다. 무기적 자연력(중력·자기)에서 유기체·식물·동물을 거쳐 인간에 이르는 이 단계들의 <b>모형</b>이 <b>플라톤의 이데아</b>다. 이념은 개체와 다르며 시간 밖에 있다.</p>
+<svg viewBox="0 0 760 460" class="dp-svg" role="img" aria-label="의지의 객관화">
+  <defs><marker id="ar5" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="230" y="16" width="300" height="52" rx="10" class="box b-wl"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">의지(Wille) — 사물 자체 · 하나</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">시간·공간·인과·개별 밖 · 근거 없음</text>
+
+  <line x1="380" y1="72" x2="380" y2="96" class="ln"/>
+  <text x="380" y="110" text-anchor="middle" class="t-band">객관화의 여러 단계 (Objektivationsstufen)</text>
+  <text x="380" y="128" text-anchor="middle" class="t-d2">= 플라톤 이데아 = 사물 자체가 표상 세계에 나타나는 <tspan font-weight="700">원형</tspan></text>
+
+  <g>
+   <rect x="30" y="144" width="700" height="46" rx="9" class="box b-wl"/>
+   <text x="380" y="166" text-anchor="middle" class="t-tt2">Ⅰ. 자연력 (Naturkräfte)</text>
+   <text x="380" y="184" text-anchor="middle" class="t-d2">중력 · 전기 · 자기 · 화학 친화력 — 무기적 자연에서 의지의 가장 낮은 단계</text>
+  </g>
+  <g>
+   <rect x="30" y="196" width="700" height="46" rx="9" class="box b-wl"/>
+   <text x="380" y="218" text-anchor="middle" class="t-tt2">Ⅱ. 식물적 삶</text>
+   <text x="380" y="236" text-anchor="middle" class="t-d2">생명 · 성장 · 종의 보존 — 감성 없는 의지의 단계</text>
+  </g>
+  <g>
+   <rect x="30" y="248" width="700" height="46" rx="9" class="box b-wl"/>
+   <text x="380" y="270" text-anchor="middle" class="t-tt2">Ⅲ. 동물적 삶</text>
+   <text x="380" y="288" text-anchor="middle" class="t-d2">감각 · 움직임 · 지성 · 동기에 따른 행동 — 표상하는 의지의 단계</text>
+  </g>
+  <g>
+   <rect x="30" y="300" width="700" height="46" rx="9" class="box b-id"/>
+   <text x="380" y="322" text-anchor="middle" class="t-tt">Ⅳ. 인간</text>
+   <text x="380" y="340" text-anchor="middle" class="t-d2">지성 + 이성 · 개념 · 예술의 관조 · 자기 인식 — 의지의 <tspan font-weight="700">가장 높은</tspan> 객관화</text>
+  </g>
+
+  <line x1="150" y1="242" x2="150" y2="248" class="ln" marker-end="url(#ar5)"/>
+  <line x1="150" y1="294" x2="150" y2="300" class="ln" marker-end="url(#ar5)"/>
+  <line x1="150" y1="190" x2="150" y2="196" class="ln" marker-end="url(#ar5)"/>
+
+  <text x="380" y="366" text-anchor="middle" class="t-band band-b">주요 규정</text>
+  <text x="200" y="386" text-anchor="middle" class="t-d">각 단계는 <tspan font-weight="700">같은 의지의 다른 나타남</tspan> · 모두가 하나</text>
+  <text x="560" y="386" text-anchor="middle" class="t-d">이념 사이에는 <tspan font-weight="700">영원한 투쟁</tspan> — 자연의 잔혹함</text>
+
+  <text x="200" y="404" text-anchor="middle" class="t-d2">낮은 단계일수록 개체성 없음</text>
+  <text x="560" y="404" text-anchor="middle" class="t-d2">높은 단계는 낮은 단계를 자기 아래에 두어 꿈꿈</text>
+
+  <text x="380" y="432" text-anchor="middle" class="t-flow">의지의 이 <tspan font-weight="700">계단</tspan>이 3권의 예술론과 4권의 윤리학의 형이상학적 뼈대다.</text>
+  <text x="380" y="452" text-anchor="middle" class="t-d2">예술은 이 이념을 관조하고, 성자는 의지 자체를 지양한다.</text>
+</svg>
+
+<h3 class="dp-h3">⑤ 플라톤 이데아와 칸트 사물자체의 재해석</h3>
+<p class="lead">3권의 문턱. 쇼펜하우어는 <b>플라톤의 이데아</b>와 <b>칸트의 사물 자체</b>가 서로 다른 두 개념이 아니라 <b>같은 것에 대한 두 표현</b>이라 본다 — 다만 자신의 재편 안에서다. 사물 자체는 <b>의지</b>이지만, 그것이 표상 세계에 자기를 나타내는 첫 단계가 <b>이념(이데아)</b>이다.</p>
+<svg viewBox="0 0 760 420" class="dp-svg" role="img" aria-label="이데아와 사물자체의 재해석">
+  <defs><marker id="ar6" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="80" y="20" width="280" height="80" rx="10" class="box b-base"/>
+  <text x="220" y="44" text-anchor="middle" class="t-tt">플라톤의 이데아</text>
+  <text x="220" y="64" text-anchor="middle" class="t-d">시간 밖의 영원한 원형</text>
+  <text x="220" y="82" text-anchor="middle" class="t-d2">개체가 참여하는 실재</text>
+  <text x="220" y="98" text-anchor="middle" class="t-d2">인식은 <tspan font-weight="700">회상</tspan>(anamnesis)</text>
+
+  <rect x="400" y="20" width="280" height="80" rx="10" class="box b-base"/>
+  <text x="540" y="44" text-anchor="middle" class="t-tt">칸트의 사물 자체</text>
+  <text x="540" y="64" text-anchor="middle" class="t-d">현상 뒤의 미지의 것</text>
+  <text x="540" y="82" text-anchor="middle" class="t-d2">인식되지 않고 사유될 뿐</text>
+  <text x="540" y="98" text-anchor="middle" class="t-d2">경험 한계의 표지</text>
+
+  <path d="M360,60 L400,60" class="ln"/>
+  <path d="M400,68 L360,68" class="ln"/>
+  <text x="380" y="50" text-anchor="middle" class="t-d2">유사·차이</text>
+
+  <text x="380" y="132" text-anchor="middle" class="t-band band-o">쇼펜하우어의 재편</text>
+
+  <rect x="30" y="146" width="700" height="60" rx="10" class="box b-wl"/>
+  <text x="380" y="168" text-anchor="middle" class="t-tt">사물 자체 = 의지 (단수, 시공 밖, 개별화 없음)</text>
+  <text x="380" y="188" text-anchor="middle" class="t-d2">칸트가 이름 없이 남긴 x에 이름을 줌 · 자기 신체의 체험에서 알아냄</text>
+
+  <line x1="380" y1="208" x2="380" y2="230" class="ln" marker-end="url(#ar6)"/>
+
+  <rect x="30" y="240" width="700" height="60" rx="10" class="box b-id"/>
+  <text x="380" y="262" text-anchor="middle" class="t-tt">이념 = 의지의 객관화의 첫 단계 (플라톤의 이데아 = 의지의 원형)</text>
+  <text x="380" y="282" text-anchor="middle" class="t-d2">시간·공간의 형식은 갖추지만 개별화(개체 다수)에는 이르지 않은 상태</text>
+
+  <line x1="380" y1="302" x2="380" y2="324" class="ln" marker-end="url(#ar6)"/>
+
+  <rect x="30" y="334" width="700" height="60" rx="10" class="box b-pr"/>
+  <text x="380" y="356" text-anchor="middle" class="t-tt">개체 = 개별화 원리(공간·시간)에 의해 이념이 다수로 나타난 것</text>
+  <text x="380" y="376" text-anchor="middle" class="t-d2">현상 세계의 개별 사물 — 근거율(생성·존재·인식·행위)에 종속</text>
+
+  <text x="380" y="414" text-anchor="middle" class="t-d2">3권의 예술론은 이 <tspan font-weight="700">이념 층위</tspan>에서 이루어진다 — 예술적 관조는 개체를 넘어 이념을 본다.</text>
+</svg>
+
+<h3 class="dp-h3">⑥ 예술의 위계 — 건축에서 음악까지</h3>
+<p class="lead">예술은 의지의 각 <b>객관화 단계(이념)</b>를 감성적으로 드러낸다. 낮은 단계의 이념(중력·응집)은 건축이 표현하고, 높은 단계는 조각·회화·시가 담아낸다. 그러나 <b>음악</b>은 예외적이다 — 음악은 이념이 아니라 <b>의지 자체</b>를 직접 모사한다. 이 특권적 지위가 쇼펜하우어 미학의 가장 유명한 논점이다.</p>
+<svg viewBox="0 0 760 480" class="dp-svg" role="img" aria-label="예술의 위계">
+  <defs><marker id="ar7" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <text x="380" y="26" text-anchor="middle" class="t-band">이념의 단계에 따른 예술의 위계</text>
+
+  <g>
+   <rect x="30" y="42" width="700" height="42" rx="8" class="box b-base"/>
+   <text x="130" y="66" text-anchor="middle" class="t-tt2">건축(§43)</text>
+   <text x="440" y="66" text-anchor="middle" class="t-d">낮은 이념 — 중력·응집·경직성의 갈등을 감성적으로 드러냄</text>
+  </g>
+  <g>
+   <rect x="30" y="90" width="700" height="42" rx="8" class="box b-base"/>
+   <text x="130" y="114" text-anchor="middle" class="t-tt2">조각(§44–46)</text>
+   <text x="440" y="114" text-anchor="middle" class="t-d">유기체 이념 — 인체(§45)와 라오콘(§46)의 아름다움</text>
+  </g>
+  <g>
+   <rect x="30" y="138" width="700" height="42" rx="8" class="box b-base"/>
+   <text x="130" y="162" text-anchor="middle" class="t-tt2">회화 · 역사화(§48)</text>
+   <text x="440" y="162" text-anchor="middle" class="t-d">인간의 성격과 상황 — 개별성과 이념의 결합</text>
+  </g>
+  <g>
+   <rect x="30" y="186" width="700" height="42" rx="8" class="box b-base"/>
+   <text x="130" y="210" text-anchor="middle" class="t-tt2">시문학(§51)</text>
+   <text x="440" y="210" text-anchor="middle" class="t-d">인간 이념 그 자체 — 서정시 · 서사시 · 비극(예술 최고봉)</text>
+  </g>
+
+  <g>
+   <rect x="30" y="248" width="700" height="82" rx="10" class="box b-id"/>
+   <text x="380" y="272" text-anchor="middle" class="t-tt">음악(§52) — 이념이 아니라 의지 자체를 직접 모사</text>
+   <text x="380" y="292" text-anchor="middle" class="t-d">다른 예술이 이념의 <tspan font-weight="700">간접적 모사</tspan>라면, 음악은 의지 자체의 <tspan font-weight="700">직접적 모사</tspan></text>
+   <text x="380" y="310" text-anchor="middle" class="t-d2">낮은 성부(베이스) = 낮은 이념, 높은 성부(멜로디) = 인간 감정의 흐름</text>
+   <text x="380" y="326" text-anchor="middle" class="t-d2">음악과 세계는 두 개의 <tspan font-weight="700">평행한 표현</tspan> — 음악을 안다면 세계 형이상학을 안 것</text>
+  </g>
+
+  <text x="380" y="358" text-anchor="middle" class="t-band band-p">예술이 하는 일 — 의지에서의 일시적 해방</text>
+  <rect x="30" y="372" width="340" height="70" rx="9" class="box b-pos"/>
+  <text x="200" y="394" text-anchor="middle" class="t-tt2">순수 인식 주관 되기</text>
+  <text x="200" y="414" text-anchor="middle" class="t-d">개인이 자기 이해관계와 시공적 조건을 잊고</text>
+  <text x="200" y="432" text-anchor="middle" class="t-d2">이념을 있는 그대로 관조하는 무욕의 주관</text>
+
+  <rect x="390" y="372" width="340" height="70" rx="9" class="box b-pos"/>
+  <text x="560" y="394" text-anchor="middle" class="t-tt2">천재(§36)의 힘</text>
+  <text x="560" y="414" text-anchor="middle" class="t-d">순수 인식 주관의 상태를 <tspan font-weight="700">지속적</tspan>으로 유지</text>
+  <text x="560" y="432" text-anchor="middle" class="t-d2">이 능력이 광기와 인접 — 정상의 경계에 서 있음</text>
+
+  <text x="380" y="470" text-anchor="middle" class="t-d2">그러나 예술의 해방은 <tspan font-weight="700">일시적</tspan>이다. 영구한 해방은 4권의 윤리·구원에서만 가능하다.</text>
+</svg>
+
+<h3 class="dp-h3">⑦ 개인화 원리와 윤리학 — 이기심·정의·연민</h3>
+<p class="lead">개별화 원리(principium individuationis, 공간·시간)가 나와 남을 <b>다른 존재</b>로 보이게 만든다. 이 벽이 <b>마야의 베일</b>이다. 그 뒤에서는 <b>하나의 의지</b>가 모두를 통해 삶을 원한다. 윤리적 태도의 세 층위 — <b>이기심(자기만)</b>·<b>정의(남을 해치지 않음)</b>·<b>연민(남의 고통을 제 것으로 느낌)</b> — 는 이 베일이 얼마나 뚫려 있는가에 따라 달라진다.</p>
+<svg viewBox="0 0 760 460" class="dp-svg" role="img" aria-label="개인화 원리와 윤리학">
+  <defs><marker id="ar8" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="200" y="16" width="360" height="52" rx="10" class="box b-wl"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">"모두는 하나의 의지" · 마야의 베일 뒤에서</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">공간·시간(개인화 원리) = 나와 남을 갈라놓는 착시</text>
+
+  <line x1="380" y1="72" x2="380" y2="96" class="ln"/>
+  <text x="380" y="110" text-anchor="middle" class="t-band">베일이 <tspan font-weight="700">얼마나 뚫려 있는가</tspan>에 따른 세 태도</text>
+
+  <g>
+   <rect x="30" y="126" width="220" height="130" rx="10" class="box b-ng"/>
+   <text x="140" y="150" text-anchor="middle" class="t-tt">이기심(Egoismus)</text>
+   <text x="140" y="170" text-anchor="middle" class="t-d">베일이 완전히 두꺼움</text>
+   <text x="140" y="188" text-anchor="middle" class="t-d2">§61 · 모든 투쟁의 출발점</text>
+   <text x="140" y="207" text-anchor="middle" class="t-d2">'나만이 전부다'</text>
+   <text x="140" y="226" text-anchor="middle" class="t-d">↓ 극단화</text>
+   <text x="140" y="244" text-anchor="middle" class="t-d">악의(Bosheit) — 남의 고통 자체를 원함</text>
+
+   <rect x="270" y="126" width="220" height="130" rx="10" class="box b-base"/>
+   <text x="380" y="150" text-anchor="middle" class="t-tt">정의(Gerechtigkeit)</text>
+   <text x="380" y="170" text-anchor="middle" class="t-d">베일이 얇아짐</text>
+   <text x="380" y="188" text-anchor="middle" class="t-d2">§62–63 · 소극적 덕</text>
+   <text x="380" y="207" text-anchor="middle" class="t-d2">'남을 해치지 않는다'</text>
+   <text x="380" y="226" text-anchor="middle" class="t-d">국가 · 계약 · 법률</text>
+   <text x="380" y="244" text-anchor="middle" class="t-d2">이기심의 상호 제한이 그 뿌리</text>
+
+   <rect x="510" y="126" width="220" height="130" rx="10" class="box b-pos"/>
+   <text x="620" y="150" text-anchor="middle" class="t-tt">연민(Mitleid)</text>
+   <text x="620" y="170" text-anchor="middle" class="t-d">베일이 뚫림</text>
+   <text x="620" y="188" text-anchor="middle" class="t-d2">§67 · 적극적 덕 · 참된 덕의 유일한 원천</text>
+   <text x="620" y="207" text-anchor="middle" class="t-d2">'네가 곧 나다'(tat tvam asi)</text>
+   <text x="620" y="226" text-anchor="middle" class="t-d">인간애 · 자비 · 자기 희생</text>
+   <text x="620" y="244" text-anchor="middle" class="t-d2">→ 성자성의 씨앗</text>
+  </g>
+
+  <text x="380" y="288" text-anchor="middle" class="t-band band-b">칸트 윤리학과의 대비</text>
+  <rect x="30" y="302" width="340" height="70" rx="9" class="box b-base"/>
+  <text x="200" y="324" text-anchor="middle" class="t-tt2">칸트: 정언명령 · 이성적 의무</text>
+  <text x="200" y="344" text-anchor="middle" class="t-d">보편적 법칙성에서 도덕 근거</text>
+  <text x="200" y="362" text-anchor="middle" class="t-d2">쇼펜하우어 비판: 공허한 형식주의</text>
+
+  <rect x="390" y="302" width="340" height="70" rx="9" class="box b-pos"/>
+  <text x="560" y="324" text-anchor="middle" class="t-tt2">쇼펜하우어: 연민 · 형이상학적 근거</text>
+  <text x="560" y="344" text-anchor="middle" class="t-d">"모두가 하나"라는 형이상학적 통찰이 덕의 뿌리</text>
+  <text x="560" y="362" text-anchor="middle" class="t-d2">이성이 아니라 <tspan font-weight="700">직관적 형이상학</tspan>에서 도덕 발생</text>
+
+  <text x="380" y="400" text-anchor="middle" class="t-flow"><tspan font-weight="700">영원한 정의(§63)</tspan>: 개별 응보가 아니라 세계 자체가 이미 죄와 고통이 합쳐진 영원의 정의.</text>
+  <text x="380" y="420" text-anchor="middle" class="t-d2">가해자와 피해자는 <tspan font-weight="700">같은 의지</tspan>의 두 얼굴 — 피해자의 고통이 곧 가해자의 죄의 다른 표현이다.</text>
+  <text x="380" y="442" text-anchor="middle" class="t-d2">인도철학의 카르마와 유비 — 그러나 시간 안의 인과가 아닌 <tspan font-weight="700">동시적 형이상학적 진리</tspan>다.</text>
+</svg>
+
+<h3 class="dp-h3">⑧ 삶에의 의지의 긍정과 부정 — 구원의 길</h3>
+<p class="lead">4권의 결론. 예술의 해방은 일시적일 뿐이다. 영구적 해방은 의지 자체를 <b>지양</b>하는 데 있다. 이것이 <b>삶에의 의지의 부정</b> — 금욕·순결·자발적 가난·성자성이다. 자살은 이 부정이 아니라 오히려 의지의 <b>긍정</b>이다. 최후의 문장 — "의지가 사라진 자에게 이 세계는 무(無)다."</p>
+<svg viewBox="0 0 760 460" class="dp-svg" role="img" aria-label="긍정과 부정">
+  <defs><marker id="ar9" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <text x="380" y="26" text-anchor="middle" class="t-band">삶에의 의지 앞에서의 두 갈래</text>
+
+  <rect x="30" y="42" width="340" height="150" rx="10" class="box b-ng"/>
+  <text x="200" y="66" text-anchor="middle" class="t-tt">긍정 (Bejahung)</text>
+  <text x="200" y="86" text-anchor="middle" class="t-d">의지에 자기를 내맡김</text>
+  <text x="200" y="108" text-anchor="middle" class="t-d2">§60 · 삶을 원하고 살아 감</text>
+  <text x="200" y="124" text-anchor="middle" class="t-d2">— 정상적 인간 모두의 태도</text>
+  <text x="200" y="148" text-anchor="middle" class="t-d">고뇌의 필연성</text>
+  <text x="200" y="166" text-anchor="middle" class="t-d2">욕구 → 결핍 = 고통</text>
+  <text x="200" y="182" text-anchor="middle" class="t-d2">충족 → 권태 · 만족은 소극적</text>
+
+  <rect x="390" y="42" width="340" height="150" rx="10" class="box b-pos"/>
+  <text x="560" y="66" text-anchor="middle" class="t-tt">부정 (Verneinung)</text>
+  <text x="560" y="86" text-anchor="middle" class="t-d">의지 자체를 지양함</text>
+  <text x="560" y="108" text-anchor="middle" class="t-d2">§68 · 성자의 삶</text>
+  <text x="560" y="124" text-anchor="middle" class="t-d2">— 인류사의 드문 사건</text>
+  <text x="560" y="148" text-anchor="middle" class="t-d">네 계기</text>
+  <text x="560" y="166" text-anchor="middle" class="t-d2">금욕 · 자발적 순결 · 가난</text>
+  <text x="560" y="182" text-anchor="middle" class="t-d2">고통을 회피하지 않고 받아들임</text>
+
+  <text x="380" y="224" text-anchor="middle" class="t-band band-r">중요한 구별 — 자살은 부정이 아니다(§69)</text>
+  <rect x="80" y="238" width="600" height="60" rx="10" class="box b-ng"/>
+  <text x="380" y="260" text-anchor="middle" class="t-tt2">자살은 <tspan font-weight="700">삶의 조건</tspan>을 부정하지 <tspan font-weight="700">의지 자체</tspan>를 부정하지 않는다</text>
+  <text x="380" y="280" text-anchor="middle" class="t-d2">오히려 삶에 대한 격렬한 애착의 표현 — 의지의 강한 긍정</text>
+
+  <text x="380" y="322" text-anchor="middle" class="t-band band-p">구원의 두 길</text>
+  <g>
+   <rect x="80" y="336" width="260" height="70" rx="10" class="box b-id"/>
+   <text x="210" y="358" text-anchor="middle" class="t-tt2">고통의 통로</text>
+   <text x="210" y="378" text-anchor="middle" class="t-d">극심한 고통을 겪은 자가</text>
+   <text x="210" y="398" text-anchor="middle" class="t-d2">스스로 삶의 헛됨을 깨달음</text>
+
+   <rect x="420" y="336" width="260" height="70" rx="10" class="box b-et"/>
+   <text x="550" y="358" text-anchor="middle" class="t-tt2">인식의 통로</text>
+   <text x="550" y="378" text-anchor="middle" class="t-d">개인화 원리를 완전히 꿰뚫어봄</text>
+   <text x="550" y="398" text-anchor="middle" class="t-d2">"모두가 하나"의 형이상학적 인식</text>
+  </g>
+
+  <text x="380" y="432" text-anchor="middle" class="t-flow">종교적 표현으로 — 은총(그리스도교) · 열반(불교) · 브라만과의 합일(힌두교)</text>
+  <text x="380" y="452" text-anchor="middle" class="t-d2">§71 저작의 마지막 문장: "의지가 없는 자에게 세계는 무(無)다."</text>
+</svg>
+
+</section>
+<div class="backtop"><a href="#top">↑ 목차</a></div>
+
+<section id="tree"><h2 class="dp-h">Ⅲ. 전체 개념 트리 <span class="sub">— 개념어 · 클릭 시 뜻풀이</span></h2>
+<div class="def-hint">각 용어를 <b>클릭</b>하면 뜻풀이가 뜹니다. (ESC · 바깥 클릭 · × 로 닫기)</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">0</span><span class="cat-title">저작 일반</span><span class="cat-han">Die Welt als Wille und Vorstellung</span></div>
+<div class="terms"><span class="term"><b>WWV</b> 의지와 표상으로서의 세계</span><span class="term"><b>초판1819</b> 초판(1819)</span><span class="term"><b>2판1844</b> 2판(1844)</span><span class="term"><b>3판1859</b> 3판(1859)</span><span class="term"><b>보유편</b> 제2권 · 보유편</span><span class="term"><b>네뿌리</b> 근거율의 네 뿌리(1813)</span><span class="term"><b>자연에서의의지</b> 자연에서의 의지에 대하여</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">1</span><span class="cat-title">세계의 근본 이분법</span><span class="cat-han">Vorstellung · Wille</span></div>
+<div class="terms"><span class="term"><b>세계는나의표상</b> "세계는 나의 표상이다"</span><span class="term"><b>세계는의지</b> "세계는 의지다"</span><span class="term"><b>표상</b> 표상(Vorstellung)</span><span class="term"><b>의지</b> 의지(Wille)</span><span class="term"><b>사물자체</b> 사물 자체(Ding an sich)</span><span class="term"><b>현상</b> 현상(Erscheinung)</span><span class="term"><b>마야의베일</b> 마야의 베일</span><span class="term"><b>개인화원리</b> 개인화 원리</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">2</span><span class="cat-title">근거율과 네 뿌리</span><span class="cat-han">Satz vom zureichenden Grund</span></div>
+<div class="subcat"><div class="sub-t">기본</div>
+<div class="terms"><span class="term"><b>근거율</b> 근거율(Satz vom Grunde)</span><span class="term"><b>충분근거율</b> 충분근거율</span></div>
+</div>
+<div class="subcat"><div class="sub-t">네 뿌리</div>
+<div class="terms"><span class="term"><b>생성의근거율</b> 생성의 근거율(인과)</span><span class="term"><b>인식의근거율</b> 인식의 근거율(논리)</span><span class="term"><b>존재의근거율</b> 존재의 근거율(수학)</span><span class="term"><b>행위의근거율</b> 행위의 근거율(동기)</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">3</span><span class="cat-title">주관-객관 구조</span><span class="cat-han">Subjekt · Objekt</span></div>
+<div class="terms"><span class="term"><b>주관</b> 주관(Subjekt)</span><span class="term"><b>객관</b> 객관(Objekt)</span><span class="term"><b>인식주관</b> 인식 주관</span><span class="term"><b>상관관계</b> 주관-객관 상관관계</span><span class="term"><b>순수인식주관</b> 순수 인식 주관</span><span class="term"><b>개별화원리</b> 개별화 원리(공간·시간)</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">4</span><span class="cat-title">지성과 이성 · 인식 능력</span><span class="cat-han">Verstand · Vernunft</span></div>
+<div class="subcat"><div class="sub-t">감성·지성</div>
+<div class="terms"><span class="term"><b>감성</b> 감성(Sinnlichkeit)</span><span class="term"><b>직관</b> 직관(Anschauung)</span><span class="term"><b>지성</b> 지성(Verstand)</span><span class="term"><b>인과성</b> 인과성(Kausalität)</span><span class="term"><b>외부세계실재성</b> 외부 세계의 실재성</span></div>
+</div>
+<div class="subcat"><div class="sub-t">이성·개념·논리</div>
+<div class="terms"><span class="term"><b>이성</b> 이성(Vernunft)</span><span class="term"><b>개념</b> 개념(Begriff)</span><span class="term"><b>추상적인식</b> 추상적 인식(지식)</span><span class="term"><b>지식</b> 지식(Wissen)</span><span class="term"><b>감정</b> 감정(Gefühl)</span><span class="term"><b>반성</b> 반성(Reflexion)</span><span class="term"><b>기지</b> 기지(Witz)</span><span class="term"><b>학문</b> 학문(Wissenschaft)</span><span class="term"><b>진리</b> 진리(Wahrheit)</span><span class="term"><b>오류</b> 오류(Irrtum)</span></div>
+</div>
+<div class="subcat"><div class="sub-t">칸트 비판</div>
+<div class="terms"><span class="term"><b>칸트비판</b> 칸트의 실천이성 비판</span><span class="term"><b>스토아윤리학</b> 스토아학파 윤리학</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">5</span><span class="cat-title">의지 개념 · 신체를 통한 열쇠</span><span class="cat-han">Wille · Leib</span></div>
+<div class="terms"><span class="term"><b>직관적표상</b> 직관적 표상</span><span class="term"><b>신체</b> 신체(Leib)</span><span class="term"><b>신체이중소여</b> 신체의 이중 소여</span><span class="term"><b>욕구</b> 욕구</span><span class="term"><b>의지행위</b> 의지 행위</span><span class="term"><b>의지의개념</b> 의지의 개념</span><span class="term"><b>힘</b> 힘(Kraft)</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">6</span><span class="cat-title">사물 자체로서의 의지</span><span class="cat-han">Wille als Ding an sich</span></div>
+<div class="terms"><span class="term"><b>의지사물자체</b> 사물 자체로서의 의지</span><span class="term"><b>의지의필연성</b> 의지의 필연성</span><span class="term"><b>맹목적의지</b> 맹목적 의지</span><span class="term"><b>목표없는의지</b> 목표도 한계도 없는 의지</span><span class="term"><b>의지의하나임</b> 의지의 단일성</span><span class="term"><b>근거없음</b> 의지의 근거 없음</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">7</span><span class="cat-title">의지의 객관화 · 이념 · 자연력</span><span class="cat-han">Objektivation · Idee · Naturkräfte</span></div>
+<div class="terms"><span class="term"><b>객관화</b> 의지의 객관화</span><span class="term"><b>객관화단계</b> 객관화의 단계</span><span class="term"><b>이념</b> 이념(Idee)</span><span class="term"><b>자연력</b> 자연력(Naturkräfte)</span><span class="term"><b>합목적성</b> 합목적성</span><span class="term"><b>이념간투쟁</b> 이념 사이의 투쟁</span><span class="term"><b>자연의잔혹</b> 자연의 잔혹함</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">8</span><span class="cat-title">이념과 예술 · 순수 인식 주관</span><span class="cat-han">Idee · Kunst · reines Subjekt</span></div>
+<div class="terms"><span class="term"><b>플라톤이데아</b> 플라톤의 이데아</span><span class="term"><b>이념인식</b> 이념의 인식</span><span class="term"><b>순수주관</b> 순수 인식 주관</span><span class="term"><b>미적관조</b> 미적 관조</span><span class="term"><b>이념현상구별</b> 이념과 현상의 구별</span><span class="term"><b>천재</b> 천재(Genie)</span><span class="term"><b>광기</b> 광기</span><span class="term"><b>천재와광기</b> 천재와 광기의 인접성</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">9</span><span class="cat-title">예술의 위계</span><span class="cat-han">Stufenreihe der Künste</span></div>
+<div class="terms"><span class="term"><b>건축술</b> 건축술(Architektur)</span><span class="term"><b>식물동물아름다움</b> 식물·동물의 아름다움</span><span class="term"><b>인간아름다움</b> 인간의 아름다움</span><span class="term"><b>조각</b> 조각(Skulptur)</span><span class="term"><b>라오콘</b> 라오콘 조각상</span><span class="term"><b>회화</b> 회화(Malerei)</span><span class="term"><b>역사화</b> 역사화</span><span class="term"><b>알레고리</b> 예술 작품의 알레고리</span><span class="term"><b>시문학</b> 시문학(Dichtkunst)</span><span class="term"><b>비극</b> 비극(Tragödie)</span><span class="term"><b>음악</b> 음악(Musik)</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">10</span><span class="cat-title">미학 · 숭고 · 아름다움</span><span class="cat-han">Ästhetik</span></div>
+<div class="terms"><span class="term"><b>미적만족</b> 미적 만족</span><span class="term"><b>주관적조건</b> 미적 만족의 주관적 조건</span><span class="term"><b>객관적조건</b> 미적 만족의 객관적 조건</span><span class="term"><b>아름다움</b> 아름다움(das Schöne)</span><span class="term"><b>숭고</b> 숭고(das Erhabene)</span><span class="term"><b>매력적인것</b> 매력적인 것(das Reizende)</span><span class="term"><b>미적인상</b> 미적 인상</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">11</span><span class="cat-title">음악의 특권적 지위</span><span class="cat-han">Musik als Abbild des Willens</span></div>
+<div class="terms"><span class="term"><b>의지의모사</b> 의지 자체의 모사</span><span class="term"><b>음악과세계</b> 음악과 세계의 평행</span><span class="term"><b>멜로디</b> 멜로디</span><span class="term"><b>화성</b> 화성 · 성부</span><span class="term"><b>보편언어</b> 감정의 보편 언어</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">12</span><span class="cat-title">이기심 · 삶의 고뇌</span><span class="cat-han">Egoismus · Leiden</span></div>
+<div class="terms"><span class="term"><b>이기심</b> 이기심(Egoismus)</span><span class="term"><b>악의</b> 악의(Bosheit)</span><span class="term"><b>고뇌</b> 고뇌(Leiden)</span><span class="term"><b>고뇌의필연</b> 고뇌의 필연성</span><span class="term"><b>결핍</b> 결핍 · 욕망 · 권태</span><span class="term"><b>충족의소극</b> 충족의 소극적 성질</span><span class="term"><b>인생사수난</b> "모든 인생사는 수난의 역사"</span><span class="term"><b>복수심</b> 복수심</span><span class="term"><b>자기애</b> 자기애</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">13</span><span class="cat-title">윤리학 · 정의 · 연민</span><span class="cat-han">Recht · Gerechtigkeit · Mitleid</span></div>
+<div class="terms"><span class="term"><b>국가</b> 국가 · 계약</span><span class="term"><b>법률</b> 법률(法律)</span><span class="term"><b>불법</b> 불법(Unrecht)</span><span class="term"><b>정의</b> 정의(Gerechtigkeit)</span><span class="term"><b>영원한정의</b> 영원한 정의</span><span class="term"><b>선악</b> 선과 악</span><span class="term"><b>양심의가책</b> 양심의 가책</span><span class="term"><b>덕</b> 덕(Tugend)</span><span class="term"><b>선의원천</b> 선의 원천</span><span class="term"><b>연민</b> 연민(Mitleid)</span><span class="term"><b>타트트밤아시</b> tat tvam asi</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">14</span><span class="cat-title">삶에의 의지의 긍정</span><span class="cat-han">Bejahung des Willens</span></div>
+<div class="terms"><span class="term"><b>삶에의의지</b> 삶에의 의지(Wille zum Leben)</span><span class="term"><b>긍정</b> 긍정(Bejahung)</span><span class="term"><b>절대적자유</b> 의지의 절대적 자유</span><span class="term"><b>자살</b> 자살에 대하여</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">15</span><span class="cat-title">삶에의 의지의 부정 · 구원</span><span class="cat-han">Verneinung · Erlösung</span></div>
+<div class="terms"><span class="term"><b>부정</b> 부정(Verneinung)</span><span class="term"><b>금욕</b> 금욕(Askese)</span><span class="term"><b>순결</b> 자발적 순결</span><span class="term"><b>자발적가난</b> 자발적 가난</span><span class="term"><b>성자</b> 성자(Heilige)</span><span class="term"><b>은총</b> 은총(Gnade)</span><span class="term"><b>기독교윤리</b> 기독교 교리와 윤리</span><span class="term"><b>브라만</b> 브라만 · 아트만</span><span class="term"><b>열반</b> 열반(涅槃, Nirvana)</span><span class="term"><b>무</b> 무(無, Nichts)</span><span class="term"><b>무에의의지</b> 무에의 의지</span></div>
+</div>
+
+</section>
+<div class="backtop"><a href="#top">↑ 목차</a></div>
+
+<footer>쇼펜하우어 『의지와 표상으로서의 세계(Die Welt als Wille und Vorstellung)』 홍성광 역 · 개념 도표 · 조감도 · 관계도 8 · 개념 트리 165</footer>
+</div>
+
+<div class="def-tip" id="defTip" role="dialog" aria-live="polite">
+  <button class="dt-x" id="defClose" aria-label="닫기">×</button>
+  <p class="dt-h" id="defHan"></p>
+  <p class="dt-k" id="defKor"></p>
+  <p class="dt-b" id="defBody"></p>
+</div>
+<div class="svg-modal" id="svgModal" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="sm-close" id="smClose" aria-label="닫기">×</button>
+  <div class="sm-body" id="smBody"></div>
+  <div class="sm-hint" id="smHint"><b>가로로 돌리면</b> 더 크게 보입니다 · 두 손가락으로 확대</div>
+</div>
+<script>
+(function(){
+  var G = {
+    "WWV":["의지와 표상으로서의 세계","<i>Die Welt als Wille und Vorstellung</i>. 쇼펜하우어의 대표작으로 1819년 초판(1권), 1844년 재판에서 대폭 확장된 2권(<b>보유편</b>)이 추가되어 완성되었다. 4권(卷)의 구조 — 표상의 이론적 고찰 · 의지의 이론적 고찰 · 표상의 심미적 고찰 · 의지의 실천적 고찰 — 이 2×2 교차를 이룬다. 저작의 근본 명제는 하나다. '세계는 나의 표상이면서 동시에 나의 의지다.' 이 이중 명제가 쇼펜하우어 형이상학의 골격이자, 이후 니체·프로이트·베르그송·비트겐슈타인·바그너에 걸치는 큰 흐름의 원류를 이룬다."],
+    "초판1819":["초판(1819)","쇼펜하우어가 30세에 낸 첫 판본. 4권의 원형이 여기서 완성되어 있으나, 당시에는 거의 팔리지 않고 학계에서 무시됐다. 헤겔의 명성이 절정이던 시기라 반(反)헤겔적 성격의 이 저작은 오랜 침묵 속에 묻혔다. 30년 뒤 헤겔주의가 쇠퇴한 뒤에야 재발견된다."],
+    "2판1844":["재판(1844)","1844년에 낸 두 번째 판본. 1권(원본)에 <b>보유편(Ergänzungen)</b>이라는 제2권을 덧붙였다. 보유편은 원본 각 장에 대응하는 확장 논의를 담고 있으며, 실질적으로 원본 분량과 맞먹는다. 오늘 <i>의지와 표상으로서의 세계</i>를 인용할 때 대개 이 판본을 표준으로 삼는다."],
+    "3판1859":["3판(1859)","쇼펜하우어가 죽기 1년 전에 낸 마지막 판본. 소소한 개정이 있을 뿐 골격은 그대로다. 이 시기에 쇼펜하우어는 이미 <i>여록과 보유(Parerga und Paralipomena)</i>(1851)의 성공으로 유명세를 얻고 있었다."],
+    "보유편":["보유편(Ergänzungen)","재판(1844)에서 추가된 제2권. 각 장이 초판의 대응 장에 대한 '보충·확장'이며 실제로는 새 사유의 심화이기도 하다. 예를 들어 '지성에 대하여' · '삶의 헛됨' · '죽음과 우리 본질' 등의 유명한 장이 여기 실려 있다."],
+    "네뿌리":["근거율의 네 뿌리에 대하여(1813)","쇼펜하우어의 박사학위 논문. <i>의지와 표상으로서의 세계</i> 1권의 이론적 전제가 되는 저작이다. 라이프니츠-볼프의 <b>충분근거율(모든 것에는 이유가 있다)</b>을 하나로 두지 않고 표상의 종류에 따라 네 갈래(생성·인식·존재·행위)로 갈라 놓는다. 이 분석이 쇼펜하우어 인식론과 형이상학의 뼈대다."],
+    "자연에서의의지":["자연에서의 의지에 대하여(1836)","2권과 보유편 사이에 낸 저작. 자연과학의 최신 성과가 자기의 의지 형이상학을 어떻게 뒷받침하는지 밝히는 시도. 생리학·비교해부학·자기(磁氣)·화학 등 광범위한 자연과학 자료를 통해 '자연력 = 의지의 낮은 객관화'라는 명제를 옹호한다."],
+
+    "세계는나의표상":["'세계는 나의 표상이다'","저작의 첫 문장(§1). 이 명제는 두 방향으로 결정적이다. 첫째, 데카르트·칸트·피히테적 관념론의 계승 — 세계는 인식하는 주관 없이 성립하지 않는다. 둘째, 그러나 이 명제는 <b>절반의 진리</b>이며, 나머지 절반이 '세계는 나의 의지다'라는 §18의 명제로 이어진다. 표상 명제와 의지 명제의 <b>이중 정식</b>이 쇼펜하우어 형이상학의 골격이다."],
+    "세계는의지":["'세계는 의지다'","§18에서 도달하는 형이상학적 명제. 나의 신체를 통한 자기 인식(안으로는 의지, 밖으로는 표상)이 세계 자체의 이중 성격을 밝히는 열쇠가 된다. 이 명제로 쇼펜하우어는 칸트가 미지로 남겨 둔 <b>사물 자체</b>에 이름을 주었다 — 그것은 의지다. 이 진일보가 그의 가장 대담한 형이상학적 결단이며, 이후 니체의 힘에의 의지, 프로이트의 무의식, 베르그송의 생명 약동까지 이 흐름의 원류다."],
+    "표상":["표상(Vorstellung)","주관 앞에 나타난 객관으로서의 세계. 공간·시간·인과의 형식 안에 있고, 근거율에 종속된다. 표상은 크게 <b>직관적 표상</b>(감각적 경험 세계)과 <b>추상적 표상</b>(개념)으로 갈라진다. 표상은 세계의 <b>바깥 얼굴</b>이며, 그 안쪽은 의지다. 표상은 주관 없이 있을 수 없다 — 따라서 죽으면 세계도 소멸한다는 함의가 나오는데, 이 함의는 4권 구원론에서 결정적 자리를 갖는다."],
+    "의지":["의지(Wille)","쇼펜하우어에서 <b>의지</b>는 인간의 의식적 결단이 아니라, 세계 자체의 근원적 <b>맹목적 충동</b>이다. 시간·공간·인과·개별화 밖에 있고, 근거율에 종속되지 않는다. 신체의 모든 동작·유기체의 성장·중력·자기·화학 반응까지 모두 의지의 발현이다. 의지는 <b>하나</b>이며, 표상 세계에서 다수로 나타나는 것은 개별화 원리(공간·시간)의 결과일 뿐이다."],
+    "사물자체":["사물 자체(Ding an sich)","칸트가 현상 뒤에 있으나 인식되지 않는다고 남겨 놓은 x. 쇼펜하우어의 결정적 논지: 이 x는 <b>의지</b>다. 그리고 우리는 자기 신체를 통해 이 의지를 직접 알 수 있다 — 이것이 형이상학의 <b>내적 통로</b>다. 유의: 쇼펜하우어의 '사물 자체 = 의지'라는 등식은 완전한 것이 아니다. 그는 후기(보유편)에서 '의지는 사물 자체의 가장 직접적 나타남이지만, 사물 자체 자체는 여전히 우리 인식의 범위 밖에 있을 수 있다'는 유보를 두었다."],
+    "현상":["현상(Erscheinung)","사물 자체(의지)가 표상 세계에 나타난 것. 공간·시간·인과의 형식 안에서 개별화된 객관들이 곧 현상이다. 칸트에서와 마찬가지로 현상은 '착각'이 아니라 우리 인식의 형식 안에서 실재한다. 그러나 인도철학·불교의 관점을 흡수한 쇼펜하우어는 현상을 <b>마야의 베일</b>이라고도 부른다 — 그 뒤의 진리(모두는 하나의 의지)를 가리는 착시 구조다."],
+    "마야의베일":["마야의 베일(Schleier der Maja)","힌두교·베단타 철학의 개념 — 개별성·다수성·인과의 세계는 궁극 실재(브라만) 앞에서 착시(마야)다. 쇼펜하우어는 이 개념을 자기 형이상학에 흡수한다. 공간·시간(개인화 원리)이 곧 마야의 베일이며, 그 뒤에 <b>하나의 의지</b>가 모두의 근저다. 이 베일이 얇아지고 뚫리는 정도가 이기심·정의·연민·성자성의 층위를 가른다."],
+    "개인화원리":["개인화 원리(principium individuationis)","공간·시간 — 이 두 형식이 <b>하나의 의지</b>를 개체 다수로 갈라 놓는다. 시간이 없다면 계기(繼起)의 다수가 없고, 공간이 없다면 병존의 다수가 없다. 개인화 원리 밖에서는 '나와 남'의 구별이 없어진다 — 이 진리가 연민의 형이상학적 뿌리다. 스콜라 철학 · 라이프니츠에서 오래된 라틴어 명칭을 쇼펜하우어가 자기 체계에 정착시켰다."],
+
+    "근거율":["근거율(Satz vom Grunde)","라이프니츠-볼프의 <b>충분근거율</b>('이유 없이 있는 것은 없다')을 쇼펜하우어가 재편한 원리. 표상 세계 안의 모든 관계를 규제하지만 사물 자체(의지)에는 적용되지 않는다. 형태는 <b>네 뿌리</b>로 갈라진다 — 표상의 각 계급마다 다른 형식의 근거율이 지배한다."],
+    "충분근거율":["충분근거율(Satz vom zureichenden Grund)","'모든 것에는 왜 그러한지의 이유가 있다.' 라이프니츠가 정식화한 형이상학적 원리. 쇼펜하우어의 박사학위 논문(1813)은 이 원리가 표상의 종류마다 서로 다른 <b>네 형식</b>으로 나타난다고 논한다 — 하나의 원리가 아니라 하나의 이름 아래 네 개의 서로 다른 진리. 이 분석이 쇼펜하우어 인식론의 뼈대다."],
+    "생성의근거율":["생성의 근거율(principium fiendi)","<b>인과성</b>. 경험적 표상 세계의 각 사건은 그 이전 원인에 의해 필연적으로 일어난다. 지성(Verstand)이 관할하며, 자연과학의 대상이 된다. 유의: 쇼펜하우어의 인과는 흄-칸트의 인과와 마찬가지로 경험 세계 안의 필연이지, 사물 자체(의지)의 원리는 아니다."],
+    "인식의근거율":["인식의 근거율(principium cognoscendi)","<b>전제와 결론</b>의 논리적 관계. 개념(추상 표상)의 계급을 지배하며, 논리학이 그 학문. 이성(Vernunft)의 관할이다. 어떤 판단이 참인 이유는 그것의 전제들 안에 있다."],
+    "존재의근거율":["존재의 근거율(principium essendi)","<b>공간·시간의 부분 관계</b>. 순수 직관 안에서 부분이 서로 위치·계기를 갖는 필연. 수학(기하학·산술)이 그 학문이다. '이 삼각형이 저 삼각형과 합동인 이유'는 공간의 이 근거율에 있다."],
+    "행위의근거율":["행위의 근거율(principium agendi)","<b>동기(Motivation)</b>. 자기의식의 대상인 나의 의지 행위는 동기라는 특수한 형태의 원인에서 온다. 바깥의 인과(생성의 근거율)와 다르게, 내적으로 겪는 원인성이다. 심리학·윤리학의 형이상학적 자리."],
+
+    "주관":["주관(Subjekt)","'모든 것을 인식하고 아무것에도 인식되지 않는 것.' 표상 세계의 <b>담지자</b>이지만 그 안의 대상은 아니다. 시공 밖 · 개별화 없음 · 다수 아님이 그 특성. 주관 없이 객관 없고, 객관 없이 주관 없다 — 이 <b>주관-객관 상관관계</b>가 쇼펜하우어 인식론의 근본 축이다."],
+    "객관":["객관(Objekt)","주관에게 인식되는 모든 것. 시공 안에 있고, 근거율에 종속되며, 다수로 개별화된다. 객관은 항상 <b>어떤 주관에 대한</b> 객관이지 홀로 있는 것이 아니다."],
+    "인식주관":["인식 주관","의지를 갖지 않고 오직 인식만 하는 주관. 일상의 개인적 주관은 언제나 의지에 종속되어 있어 자기 이해관계로 세계를 본다. 이 종속을 벗어난 주관이 <b>순수 인식 주관</b>이며, 예술적 관조에서 이 상태가 잠시 성립한다."],
+    "상관관계":["주관-객관 상관관계","주관과 객관은 실체가 아니라 서로를 조건짓는 <b>두 계기</b>이다. 유물론의 오류: 주관을 객관으로 환원. 관념론의 오류: 객관을 주관으로 환원. 두 오류 모두 상관관계의 근본성을 놓쳤다. 이 상관관계 자체가 이미 표상이므로, 그 둘의 근저를 알려면 다른 통로(신체)가 필요하다."],
+    "순수인식주관":["순수 인식 주관","의지에서 해방되어 오직 인식만 하는 주관 — 예술적 관조의 상태에서 성립한다. 이 상태에서 주관은 개체성을 벗고, 세계는 이념(플라톤의 이데아)으로 나타난다. 3권 미학의 핵심 개념이며, 예술을 통한 일시적 구원의 장이 된다."],
+    "개별화원리":["개별화 원리(principium individuationis)","공간·시간 — 하나의 의지를 개체 다수로 갈라 놓는 두 형식. 이 원리 밖에서는 나와 남의 구별이 없어지고, 연민이 발생한다. 이 원리를 완전히 꿰뚫어보는 것이 4권 구원론의 인식적 통로다."],
+
+    "감성":["감성(Sinnlichkeit)","공간·시간의 순수 직관을 담지하는 능력. 칸트의 감성 개념을 쇼펜하우어가 이어받되, 그 위에 세워지는 지성 개념을 크게 재편한다. 수학이 감성의 순수 직관에 근거한다는 점은 칸트를 따른다."],
+    "직관":["직관(Anschauung)","대상을 직접적으로(개념 없이) 붙잡는 인식. 쇼펜하우어는 <b>직관적 인식이 개념적 인식보다 근원적</b>이라고 본다 — 개념은 직관에서 추상된 것이며, 그 자체로는 새 진리를 산출하지 못한다. 이 강조가 쇼펜하우어를 낭만주의·베르그송·현상학과 연결시키는 지점이다."],
+    "지성":["지성(Verstand)","<b>인과성을 인식하는 능력</b>. 감성이 준 자료에 인과의 형식을 부여해 <b>외부 세계</b>를 구성한다. 칸트의 12 범주를 쇼펜하우어는 하나(인과)로 축약한다. 결정적 재편: 지성은 동물도 가지고 있다 — 개는 소리에 대한 원인을 외부에 정립한다. 즉 지성은 이성 이전의 능력이며 언어가 필요 없다."],
+    "인과성":["인과성(Kausalität)","쇼펜하우어에서 지성의 유일한 형식이자 근본 기능. 원인과 결과의 필연적 결합. 인과성은 표상 세계의 뼈대이지만 사물 자체(의지)에는 적용되지 않는다 — 의지의 목적을 묻는 것은 근본적 범주 착오다."],
+    "외부세계실재성":["외부 세계의 실재성","§5. 회의주의(외부 세계가 있는가?)에 대한 쇼펜하우어의 답. 외부 세계는 감각과 인과성(지성)의 결합으로 즉시 구성되며, 이것이 <b>표상으로서</b> 실재한다. 그러나 이 실재는 표상 안의 실재이지, 표상 밖의 절대적 실재가 아니다. 이 이중 성격이 칸트의 <b>선험적 관념론 = 경험적 실재론</b>을 이어받은 것이다."],
+
+    "이성":["이성(Vernunft)","<b>추상적 개념을 형성하는 능력</b>. 인간만이 가진다. 개념·언어·학문·계획·역사가 이성을 통해 가능하다. 그러나 결정적으로 — 이성은 <b>새 진리를 산출하지 못한다</b>. 이성은 직관이 준 것을 개념으로 저장·전달·조합하는 도구일 뿐이다. 이 규정이 칸트의 이성(이념의 능력) 개념과 크게 다르다."],
+    "개념":["개념(Begriff)","여러 직관에서 공통점을 추상해 만든 표상. 개별 대상을 직접 가리키는 것이 아니라 여러 대상에 <b>매개적으로</b> 적용된다. 이성의 자료이며, 학문의 요소다. 개념은 근원적이지 않다 — 직관에서 파생된다."],
+    "추상적인식":["추상적 인식(지식, Wissen)","개념으로 이루어진 인식. 이성의 산물. 직관적 인식이 그때그때 구체적인 반면, 추상적 인식은 <b>보편적·전달 가능·저장 가능</b>하다. 학문이 여기 성립한다. 그러나 추상적 인식은 직관을 대체하지 못한다."],
+    "지식":["지식(Wissen)","추상적 인식과 같은 뜻. 개념으로 정리되어 언어로 전달할 수 있는 인식. 쇼펜하우어의 대비: 지식(Wissen)은 <b>이성의 산물</b>, 감정(Gefühl)은 <b>의지의 표현</b>."],
+    "감정":["감정(Gefühl)","지식의 반대 — 개념화되지 않은 내면의 상태. 미적 감정·도덕적 감정·종교적 감정이 모두 여기 속한다. 쇼펜하우어는 감정을 지식보다 낮은 것이 아니라 <b>다른 축</b>의 인식으로 본다 — 개념 이전 · 개념 이후의 진리가 감정 안에 담길 수 있다."],
+    "반성":["반성(Reflexion)","이성이 직관 위에서 개념적으로 돌아보는 활동. 학문·예술 비평·계획이 반성을 통해 가능하다. 그러나 반성은 근원적 인식이 아니라 이차적이다."],
+    "기지":["기지(Witz)","서로 다른 개념 아래 있는 대상을 하나의 개념 아래 새로 묶는 능력 — 유머·재치의 기원. 이성의 특수한 활동이며 창의적 사고와 연관된다. §13은 기지와 그 반대인 '바보스러움'을 대비한다."],
+    "학문":["학문(Wissenschaft)","개념들의 체계적 결합으로 성립하는 지식의 조직 형태. 각 학문은 특정한 근거율의 형식에 의지한다 — 수학은 존재의 근거율, 자연과학은 생성의 근거율, 논리는 인식의 근거율, 심리학·윤리학은 행위의 근거율."],
+    "진리":["진리(Wahrheit)","판단이 근거를 가짐. 근거의 성격에 따라 진리도 네 종류로 갈린다 — 논리적 진리·경험적 진리·형이상학적 진리·초논리적 진리. 그러나 근원 진리는 개념적 판단이 아니라 <b>직관</b>과 <b>내적 자기 파악</b>에 있다."],
+    "오류":["오류(Irrtum)","근거 없는 판단을 참으로 잡는 것. 오류의 가능성은 이성 활동의 부산물이며, 개념과 실재 사이의 잘못된 대응에서 생긴다. 쇼펜하우어는 여러 종류의 오류를 분류하여 정리한다(§15)."],
+    "칸트비판":["칸트의 실천이성 비판","§16. 쇼펜하우어의 칸트 도덕철학 비판. 칸트의 정언명령은 형식주의여서 실질적 도덕을 산출하지 못한다는 진단. 쇼펜하우어는 도덕의 근거를 이성이 아니라 <b>연민</b>이라는 형이상학적 통찰에 둔다. 이 비판이 4권 윤리학의 예고이며, 후에 『도덕의 기초에 대하여』(1840)로 체계화된다."],
+    "스토아윤리학":["스토아학파 윤리학","§16의 대비 항. 스토아학파의 '이성적 삶'과 '무정념(apatheia)'을 쇼펜하우어는 존중하되 궁극적 구원으로 보지 않는다. 스토아는 삶의 고통을 이성적 자족으로 완화하려 할 뿐, 삶에의 의지 자체를 지양하지 않는다. 참된 지혜는 인도 성자·기독교 성자의 <b>의지 부정</b>에 있다."],
+
+    "직관적표상":["직관적 표상","감각으로 주어지는 개별 대상 — 경험 세계의 대상들. 추상적 표상(개념)과 구별된다. 직관적 표상이 근원적이고, 개념은 그것에서 파생된다."],
+    "신체":["신체(Leib)","쇼펜하우어 형이상학의 열쇠. 신체는 두 방식으로 주어진다 — 밖으로 보면 <b>공간 안의 표상</b>(다른 물체와 같은), 안으로 느끼면 <b>의지의 발현</b>. 이 이중 소여가 우리에게 세계의 안쪽(의지)을 알게 하는 유일한 통로다. §18의 결정적 통찰."],
+    "신체이중소여":["신체의 이중 소여","§18의 정식. 나의 신체는 두 방식으로 나에게 주어져 있다. (a) 다른 사물처럼 공간 안에 있는 <b>표상</b>으로, (b) 자기 자신에게 직접적으로 느껴지는 <b>의지</b>로. 이 두 방식은 같은 것의 두 얼굴이다. 이 통찰이 세계 전체가 안쪽으로는 의지이고 밖쪽으로는 표상이라는 결론의 <b>단 하나의</b> 확실한 발판이 된다."],
+    "욕구":["욕구","의지의 개별적 발현. 배고픔·목마름·성적 충동·인정 욕구 등. 쇼펜하우어에서 이 모든 욕구가 하나의 '삶에의 의지'의 현상 형식이다. 신체 자체가 욕구의 물체적 실현이다 — 이가 씹기 위해 있듯이."],
+    "의지행위":["의지 행위(Willensakt)","일상적 뜻의 '내가 결심하고 행동함' — 의식적 결단. 그러나 쇼펜하우어에서 의식적 의지 행위조차 그 근저에는 <b>맹목적 의지</b>가 있다. 우리는 왜 원하는지 진정으로 알지 못하며, 자기 의지의 이유를 사후에 합리화할 뿐이다. 이 통찰이 프로이트 무의식론의 형이상학적 원류다."],
+    "의지의개념":["의지의 개념","§22. 쇼펜하우어의 결정적 개념 확장. 일상어에서 '의지'는 인간의 의식적 결단이지만, 쇼펜하우어는 이를 <b>모든 힘·충동·자연력</b>으로 확장한다. 중력이 지구를 태양에 이끄는 힘, 식물이 빛을 향해 자라는 힘, 결정이 특정 각도로 형성되는 힘 — 모두 의지의 발현이다. 이 확장이 대담하고 논쟁적이지만, 저작의 형이상학적 골격이다."],
+    "힘":["힘(Kraft)","자연과학의 개념 — 원인의 담지자. 쇼펜하우어는 힘을 <b>의지의 낮은 객관화</b>로 재해석한다. 뉴턴적 중력, 화학적 친화력, 전기·자기 — 모두 사물 자체 층위에서는 의지의 발현이다. 이 해석이 관철되면 자연과학의 인과적 설명은 형이상학의 옷을 갈아입는다."],
+
+    "의지사물자체":["사물 자체로서의 의지","§23. 의지는 시간·공간·인과·개별화 밖에 있으며 근거율에 종속되지 않는다. 즉 표상의 모든 형식 밖에 있는 <b>사물 자체</b>다. 그러나 이 결정적 등식(사물 자체 = 의지)에는 후기 쇼펜하우어의 유보가 있다 — 의지는 사물 자체의 가장 직접적 나타남일 뿐, 사물 자체 자체는 여전히 완전히 인식되지 않을 수 있다."],
+    "의지의필연성":["의지의 필연성","§24. 표상 세계 안의 인과와 다른 종류의 필연. 사물 자체인 의지는 근거를 갖지 않으므로 자유롭다 — 그러나 그 발현(경험 세계의 나의 행위)은 동기에 따라 필연적이다. 이 미묘한 이중 규정이 자유와 필연의 문제에 대한 쇼펜하우어의 답이다: 개체의 성격(intelligibler Charakter)은 자유롭지만 그의 행위는 필연적이다."],
+    "맹목적의지":["맹목적 의지(blinder Wille)","의지는 목적·계획·이유를 갖지 않는 <b>맹목적</b> 충동이다. 단지 원할 뿐이며, 무엇을 왜 원하는지 자기에게 물을 수 없다. 이 '맹목성'이 세계의 고뇌의 근원이다 — 목표 없이 계속 원함이 곧 결핍의 계속이므로."],
+    "목표없는의지":["목표도 한계도 없는 의지","§29. 의지는 어떤 목적을 향해 나아가는 것이 아니다. 나아가되 그 나아감 자체가 그 본성일 뿐, 도달할 곳이 없다. 이 <b>목표 없음</b>이 삶의 고통의 형이상학적 뿌리다 — 만족은 언제나 잠깐이고 새 결핍이 이내 온다."],
+    "의지의하나임":["의지의 단일성","의지는 <b>하나</b>다. 표상 세계에서 다수로 나타나는 것은 개별화 원리(공간·시간)의 결과일 뿐, 사물 자체 층위에서는 단일하다. 이 형이상학적 진리가 4권 윤리학의 근거 — 모두가 하나의 의지이므로 남의 고통이 곧 나의 고통이다."],
+    "근거없음":["의지의 근거 없음","의지는 근거율에 종속되지 않으므로 그 자체의 이유를 물을 수 없다. '왜 세계는 있는가·왜 의지는 원하는가'는 무의미한 물음이다. 근거율은 표상 세계 안의 관계일 뿐, 그 세계 자체의 근거는 아니다."],
+
+    "객관화":["의지의 객관화(Objektivation des Willens)","의지가 표상 세계에 자기를 나타내는 활동. 사물 자체는 하나이지만 표상 세계에서는 여러 <b>단계</b>로 나타난다. 각 단계는 플라톤 이데아에 대응한다 — 자연력·식물적 삶·동물적 삶·인간. 각 단계는 같은 의지의 다른 얼굴이면서 서로 <b>투쟁</b>한다."],
+    "객관화단계":["객관화의 단계","무기적 자연력에서 인간까지의 위계. 낮을수록 개체성이 없고, 높을수록 개체 다수로 갈라져 있다. 낮은 단계가 높은 단계의 <b>기반</b>이 되고, 높은 단계는 낮은 단계를 자기 아래에 두어 자기 목적으로 사용한다."],
+    "이념":["이념(Idee)","쇼펜하우어에서 <b>플라톤의 이데아</b>와 같은 뜻으로 쓰인다. 사물 자체(의지)의 각 객관화 단계, 즉 표상 세계에 들어오는 첫 층위. 시공의 형식은 갖추지만 아직 개별화되지 않은 상태. 이념 위에서 예술적 관조가 이루어지며, 예술은 개체가 아니라 이념을 대상으로 한다."],
+    "자연력":["자연력(Naturkräfte)","의지의 가장 낮은 객관화 단계. 중력·전기·자기·화학 친화력·응집력 등. 자연과학이 다루는 '힘'을 쇼펜하우어는 형이상학적으로 재규정한다 — 이 힘들은 인과의 근거이지 인과 자체가 아니다."],
+    "합목적성":["합목적성(Zweckmäßigkeit)","§28. 자연에 나타나는 목적론적 질서 — 유기체의 구조가 그 기능에 맞게 정교하게 설계된 것. 쇼펜하우어는 이를 신의 설계나 초자연적 목적으로 보지 않고, 하나의 의지가 여러 이념 단계에서 자기 자신을 표현하는 <b>내적 합치</b>로 설명한다. 각 부분이 다른 부분과 맞는 이유는 모두가 같은 의지이기 때문이다."],
+    "이념간투쟁":["이념 사이의 투쟁","의지의 여러 객관화 단계는 서로 <b>경쟁</b>한다 — 같은 물질을 두고 낮은 이념(자연력)과 높은 이념(유기체)이 다툰다. 유기체가 죽으면 자연력이 다시 그 물질을 차지한다. 이 투쟁이 자연의 잔혹함의 근저다."],
+    "자연의잔혹":["자연의 잔혹함","포식·기생·질병 — 자연은 '사자와 어린 양이 함께 뛰노는' 낭만적 조화가 아니라 하나의 의지가 자기 자신을 <b>먹어치우는</b> 무대다. 종의 보존을 위해 개체는 무자비하게 희생된다. 이 진단이 쇼펜하우어 염세주의의 자연철학적 뿌리다."],
+
+    "플라톤이데아":["플라톤의 이데아","§31의 핵심 논지. 쇼펜하우어는 플라톤의 이데아와 칸트의 사물 자체가 서로 다른 두 개념이 아니라 <b>같은 형이상학적 통찰</b>이라 본다. 다만 자기 재편 안에서 — 사물 자체는 의지이고, 이데아는 그 의지가 표상 세계에 들어오는 첫 층위(객관화 단계)다. 시공은 갖추지만 개별화는 아직 이르지 않은 원형이 곧 이데아 = 이념이다."],
+    "이념인식":["이념의 인식","§30. 이념은 감각적 개별 대상도 추상 개념도 아니다. 그러면 어떻게 인식되는가? — <b>예술적 관조</b>를 통해서다. 관조하는 주관이 자기 개체성과 이해관계를 잊고 순수 인식 주관이 되면, 대상은 개체가 아닌 이념으로 나타난다. 이 만남에서 예술이 발생한다."],
+    "순수주관":["순수 인식 주관","의지에서 해방된 인식 주관. 예술적 관조의 상태에서 성립한다. 이 상태에서 '내가 언제·어디서 이것을 보고 있다'라는 개별성이 사라지고, 오직 대상과 그것을 보는 순수한 눈만이 남는다. 시간이 정지된 듯 느껴진다. 이 상태의 깊이가 예술의 깊이를 결정한다."],
+    "미적관조":["미적 관조","의지 없이 대상을 이념으로 보는 활동. 이 관조에서 <b>이중 해방</b>이 일어난다: 대상은 개체가 아니라 이념으로, 주관은 개체가 아니라 순수 인식 주관으로. 두 방향의 해방이 곧 미적 만족의 형이상학적 조건이다."],
+    "이념현상구별":["이념과 현상의 구별","§35. 이념(플라톤의 이데아 = 의지의 객관화 단계)과 현상(개별 대상)의 구별. 이념은 시간 밖에 있고 하나이며, 현상은 개별화된 다수다. 이념은 예술의 대상이고, 현상은 자연과학의 대상이다."],
+    "천재":["천재(Genie)","§36. 순수 인식 주관의 상태를 <b>지속적으로</b> 유지할 수 있는 인간. 정상적 인간이 잠깐 이 상태에 들 뿐이라면, 천재는 자기 개체성을 지속적으로 벗어난다. 이 능력이 예술 창작의 근원이다. 천재는 이념을 보고 이념을 표현한다."],
+    "광기":["광기","천재와 <b>인접한</b> 상태. 개체성의 경계를 넘어서는 점에서 광기와 천재는 유사하다. 광기는 개인의 실용적 세계 감각이 무너진 상태이지만, 천재는 그 대신 이념을 붙잡고 있는 상태다. 이 인접성이 쇼펜하우어 미학의 유명한 논점이다."],
+    "천재와광기":["천재와 광기의 인접성","§36의 유명한 명제. 사변철학이 아니라 심리학적·병리학적 관찰에 근거한다. 위대한 예술가·시인이 자주 광기 또는 광기 인접 상태를 보이는 이유가 여기 있다. 이 통찰이 낭만주의 예술론에 큰 영향을 남겼다."],
+
+    "건축술":["건축술(Architektur)","§43. 예술 위계의 <b>가장 낮은</b> 단계. 낮은 이념(중력·응집·경직성 같은 자연력)의 갈등을 감성적으로 드러낸다. 기둥과 지붕의 관계에서 중력과 저항의 미적 표현이 성립한다. 그리스 도리스식이 이 원리의 순수한 표현으로 꼽힌다."],
+    "식물동물아름다움":["식물·동물의 아름다움","§44. 식물의 아름다움은 형태(잎·꽃)에서, 동물의 아름다움은 그 생명 활동(움직임·자세)에서 온다. 종의 이념이 개체에서 얼마나 순수하게 실현되었는가가 아름다움의 척도다."],
+    "인간아름다움":["인간의 아름다움","§45. 예술 위계에서 결정적 단계. 인간은 의지의 <b>가장 높은 객관화</b>이므로, 그 아름다움의 표현이 예술의 정점 중 하나다. 조각이 이 이념을 가장 순수히 표현한다 — 그리스 조각이 대표. 아름다움은 종의 이념이 개체 안에서 완전히 실현된 상태의 감성적 표현이다."],
+    "조각":["조각(Skulptur)","인체 이념의 아름다움을 표현하는 예술. 그리스 조각이 그 정점이다. 조각은 육체적 이념(인간의 형태적 본질)을 표현하는 데 특권적 지위를 갖는다."],
+    "라오콘":["라오콘 조각상","§46. 트로이 사제 라오콘과 두 아들이 뱀에 감긴 상태를 조각한 헬레니즘 조각. 레싱의 유명한 논쟁(『라오콘』, 1766)의 대상. 쇼펜하우어는 이 조각이 왜 비명을 지르지 않는가에 대해 자기 관점을 밝힌다 — 육체적 아름다움을 훼손하지 않기 위한 조각적 제약이다."],
+    "회화":["회화(Malerei)","이념 표현의 폭넓은 예술. 풍경화(자연력·식물)에서 인물화·역사화까지 다양한 이념을 담을 수 있다. 색과 빛의 처리가 회화의 고유한 표현 수단이다."],
+    "역사화":["역사화(Historienmalerei)","§48. 인간의 성격과 상황을 그리는 회화. 예술 위계에서 조각과 시문학 사이의 자리. 이념(인간의 본질)이 개별 상황과 성격에서 어떻게 나타나는지를 표현한다."],
+    "알레고리":["예술 작품의 알레고리","§50. 개념적 의미를 상징으로 표현하는 방식. 쇼펜하우어는 알레고리에 대해 <b>양가적</b>이다 — 알레고리는 개념을 담을 뿐 이념 자체를 담지 못하므로 순수 예술이 아니다. 그러나 잘 쓰이면 이념 표현을 돕는다. 이 판단이 후에 벤야민의 <i>독일 비극의 원천</i>에서 재해석·역전된다."],
+    "시문학":["시문학(Dichtkunst)","§51. 언어를 통해 이념을 표현하는 예술. 서정시(감정의 이념) · 서사시(성격과 상황의 이념) · 비극(인간 이념의 정점)의 위계가 있다. 비극이 예술 최고봉으로 꼽힌다."],
+    "비극":["비극(Tragödie)","시문학의 정점. 인간이 어떻게 삶에의 의지의 <b>부정</b>에 이를 수 있는가를 극적으로 보여준다. 위대한 비극의 결말은 단순한 죽음이 아니라 등장인물의 <b>인식의 전환</b> — 삶에서 손을 떼고 세계와 화해하는 순간이다. 셰익스피어의 햄릿·리어왕이 그 예. 그리스 비극은 이 최고 단계에는 이르지 못했다고 쇼펜하우어는 본다."],
+    "음악":["음악(Musik)","§52. 쇼펜하우어 미학의 정점이자 가장 유명한 논점. 다른 예술이 이념(의지의 객관화 단계)을 <b>간접</b> 모사한다면, 음악은 <b>의지 자체</b>를 <b>직접</b> 모사한다. 그래서 음악과 세계는 두 개의 <b>평행한 표현</b>이다. 음악을 깊이 안다면 세계 형이상학을 안 것이다. 이 명제가 바그너에게 결정적 영향을 남긴다."],
+
+    "미적만족":["미적 만족","의지에서 해방된 관조의 즐거움. 두 원천을 갖는다 — 주관 쪽(순수 인식 주관 되기)과 객관 쪽(이념 인식). 의지가 없어지면 결핍이 없고, 결핍이 없으면 고통이 없다. 이 <b>부정적 즐거움</b>이 미적 만족의 형이상학적 뿌리다."],
+    "주관적조건":["미적 만족의 주관적 조건","§38. 주관이 개체성과 이해관계를 벗고 순수 인식 주관이 되는 것. 이 상태에서 시간이 정지된 듯한 관조가 성립한다."],
+    "객관적조건":["미적 만족의 객관적 조건","대상이 개체가 아니라 이념으로 파악되는 것. 두 조건이 함께 성립할 때 미적 관조가 이루어진다."],
+    "아름다움":["아름다움(das Schöne)","이념이 감성적 형태로 순수히 표현된 상태. 관조하는 주관이 큰 어려움 없이 순수 인식에 이를 수 있게 하는 것. 부담 없는 미적 관조의 대상."],
+    "숭고":["숭고(das Erhabene)","§39. 대상이 관조자를 위협하거나 압도하는 성격을 갖는데도 관조자가 그 위협을 넘어 순수 인식 상태에 이르는 것. 폭풍우·거대한 산·무한한 우주. 아름다움이 조화라면 숭고는 <b>의지에 대한 위협을 넘어선 관조</b>다. 칸트의 숭고 개념을 쇼펜하우어가 이념·의지 형이상학의 언어로 재편했다."],
+    "매력적인것":["매력적인 것(das Reizende)","§40. 숭고의 반대. 대상이 관조자의 의지를 자극하여(성적 매력·먹음직스러움) 순수 인식에서 끌어내리는 것. 미적 관조를 방해하므로 예술적 가치가 낮다. 정물화의 과일이 지나치게 먹음직스러우면 이미 미가 아니라 매력이 된다."],
+    "미적인상":["미적 인상","§42. 예술 작품이 관조자에게 남기는 효과. 이념 파악의 순간이 곧 미적 인상의 순간이며, 이 순간에 시간이 정지된 듯한 느낌이 온다. 이 정지가 삶에의 의지에서의 일시적 해방이다."],
+
+    "의지의모사":["의지 자체의 모사","§52의 결정적 명제 — 음악은 이념이 아니라 의지 자체를 직접 모사한다. 다른 예술이 의지의 두 단계 매개(사물 자체 → 이념 → 예술)를 거친다면, 음악은 한 단계 매개(사물 자체 → 음악)만 거친다."],
+    "음악과세계":["음악과 세계의 평행","'음악은 세계와 마찬가지로 의지의 표현이다.' 두 매체가 서로 대응하기 때문에 특정 음악과 특정 세계 상태의 유비가 성립한다. 그러나 음악이 개별 감정(슬픔·기쁨)을 표현하는 것이 아니라 <b>감정의 본질</b>(슬픔 자체, 기쁨 자체)을 표현한다."],
+    "멜로디":["멜로디","높은 성부의 선율. 쇼펜하우어는 이를 <b>인간의 감정 흐름</b>의 표현으로 규정한다. 멜로디의 계기·전개·귀환·해결이 인간 감정의 생멸에 대응한다."],
+    "화성":["화성 · 성부","여러 성부가 어우러진 조화. 낮은 성부(베이스)에서 높은 성부(멜로디)로 올라가는 층위가 의지의 낮은 객관화(자연력)에서 높은 객관화(인간)로 올라가는 층위에 대응한다. 이 유비가 쇼펜하우어 음악철학의 핵심 이미지."],
+    "보편언어":["감정의 보편 언어","음악은 언어나 문화의 매개 없이 감정을 직접 전달한다. 이 <b>보편성</b>이 음악의 형이상학적 힘의 근원이다. 우리는 왜 특정 음악에 특정 감정으로 반응하는지 개념적으로 설명할 수 없지만, 즉시 감정적으로 알아듣는다."],
+
+    "이기심":["이기심(Egoismus)","§61. 자기 자신만을 목적으로 하고 남을 수단으로만 다루는 태도. 마야의 베일이 완전히 두꺼운 상태 — '나는 전부이고 남은 아무것도 아니다.' 이기심은 모든 투쟁·전쟁·범죄의 출발점이다. 유의: 쇼펜하우어는 이기심을 도덕적 결함이라 비난하기보다 <b>의지의 자연적 표현</b>으로 진단한다."],
+    "악의":["악의(Bosheit)","이기심의 극단화 — 자기 이익을 넘어 <b>남의 고통 자체</b>를 원하는 태도. 잔인함·시기·복수심의 근저. 악의는 이미 개인화 원리를 뚫었지만 잘못된 방향으로 뚫었다 — 다른 이의 고통을 자기가 '느낄' 수 있음을 알면서도 그 고통을 원한다. 형이상학적으로 가장 어두운 자리."],
+    "고뇌":["고뇌(Leiden)","§56–57. 삶의 근본 속성. 결핍이 곧 고통이고, 만족은 잠깐일 뿐이다. 쇼펜하우어의 유명한 도식 — 결핍(고통) → 충족 → 권태 → 새 결핍. 이 순환에서 벗어날 수 없는 것이 삶의 본질이다."],
+    "고뇌의필연":["고뇌의 필연성","§57. 삶에서 고통이 없는 것은 예외가 아니라 <b>필연</b>이다. 의지 자체가 결핍의 원리이므로, 원함이 있는 한 결핍이 있고 결핍이 있는 한 고통이 있다. 이 필연이 저작의 염세주의의 형이상학적 뿌리다."],
+    "결핍":["결핍 · 욕망 · 권태","의지의 세 얼굴. 원하지만 못 얻으면 <b>결핍</b>의 고통, 얻고 나면 잠시 <b>충족</b>, 그 뒤에는 곧 <b>권태</b>. 권태가 새 원함을 낳아 다시 결핍이 시작된다. 이 순환에서 벗어남이 없다."],
+    "충족의소극":["충족의 소극적 성질","§58. 만족은 <b>적극적</b>이지 않고 <b>소극적</b>이다 — 고통이 잠시 없어진 상태일 뿐이다. 우리는 아프지 않을 때 아프지 않음을 느끼지 못하고, 배부를 때 그 배부름을 곧 잊는다. 반면 결핍은 언제나 <b>적극적으로</b> 느껴진다. 이 비대칭이 삶이 근본적으로 고통 쪽으로 기울어져 있다는 진단의 근거."],
+    "인생사수난":["'모든 인생사는 수난의 역사'","§59. 개별 인생을 자세히 들여다보면 그것은 크고 작은 고통의 연속이다. 잠깐의 기쁨이 있어도 그것은 곧 새 결핍으로 이어진다. 삶 전체를 조망하는 눈에게 인생은 수난극(受難劇)이다."],
+    "복수심":["복수심","§64. 인간 본성의 두 어두운 특성 중 하나. 자기가 받은 상처를 남에게 되돌려주고 싶어함. 이기심의 반사 형태이며, 개인화 원리 밖에서 보면 '나와 남'이 하나이므로 이 되돌림은 결국 자기 자신을 해치는 것이다."],
+    "자기애":["자기애","§64. 두 어두운 특성의 다른 하나. 자기를 사랑하는 것 자체는 자연스럽지만, 그것이 이기심으로 심화되면 남을 수단으로만 다루게 된다. 복수심과 자기애는 이기심의 두 얼굴."],
+
+    "국가":["국가 · 계약","§62. 이기심의 상호 제한을 위해 인간이 만든 제도. 모두가 서로 해치지 않기로 <b>계약</b>을 맺고, 이를 어긴 자를 처벌하는 강제력이 국가다. 쇼펜하우어의 국가관은 자유주의적·계약론적이다 — 국가는 자유의 실현이 아니라 이기심의 <b>부정적 균형</b>이다. 헤겔의 국가관(자유의 최고 실현)과 정반대다."],
+    "법률":["법률(法律)","국가가 강제하는 규범. 정의를 실현하는 도구이지만 정의 그 자체는 아니다. 참된 정의는 형이상학적 진리(모두가 하나의 의지) 위에 성립하는 것이지 법률의 조항이 아니다."],
+    "불법":["불법(Unrecht)","남의 의지 영역을 침범하는 것. 소극적으로 남을 해치지 않는 것이 <b>정의</b>이고, 이를 어기면 <b>불법</b>이다. 쇼펜하우어는 정의를 부정적으로(하지 말아야 할 것) 규정한다."],
+    "정의":["정의(Gerechtigkeit)","§62–63. 남을 해치지 않는 태도. 소극적 덕이다. 이기심에서 한 걸음 뚫려 나와 개인화 원리의 벽을 얇게 만든 상태 — 남도 나와 같은 의지의 발현임을 인정한다. 그러나 남을 <b>도우려는</b> 적극적 태도는 아니다."],
+    "영원한정의":["영원한 정의(ewige Gerechtigkeit)","§63. 개별 인과적 응보가 아니라 세계 자체가 이미 죄와 고통이 합쳐진 <b>동시적</b> 형이상학적 진리. 가해자와 피해자가 사물 자체 층위에서 같은 하나의 의지이므로, 피해자의 고통과 가해자의 죄는 동일한 것의 두 얼굴이다. 인도철학의 카르마와 유비적이지만 시간 안의 인과가 아닌 <b>영원의 진리</b>다."],
+    "선악":["선과 악","§65. 참된 선은 남을 나 자신처럼 여기는 태도이고, 참된 악은 그 반대다. 이 둘은 개인화 원리의 관통 정도에 따라 갈린다. 선악은 이성의 규정이 아니라 <b>형이상학적 통찰의 정도</b>에 따라 갈리는 것이다."],
+    "양심의가책":["양심의 가책","§65. 악행 뒤에 오는 내적 고통. 쇼펜하우어는 이를 신학적 죄의식으로 설명하지 않는다 — 양심의 가책은 우리가 남과 하나임을 어렴풋이 알기 때문에 오는 자연스러운 감정이다. 남에게 준 고통이 사실 자기 자신에게 준 것임을 어렴풋이 느끼는 것이다."],
+    "덕":["덕(Tugend)","§66. 참된 덕은 개인화 원리를 뚫고 남도 자기와 같은 하나의 의지의 발현임을 <b>직관적으로</b> 아는 데서 나온다. 이 지식은 개념적·이성적이지 않다 — 오히려 가르쳐질 수 없는 것이다. 그래서 덕은 학습보다 <b>인식(형이상학적 통찰)</b>에서 온다."],
+    "선의원천":["선의 원천","§66. 모든 참된 선의 유일한 원천은 <b>연민</b>이다. 칸트의 이성적 의무가 아니라, 남의 고통을 자기 것으로 느끼는 형이상학적 통찰이 도덕의 뿌리다. 이 명제가 쇼펜하우어 윤리학의 축이며, 후에 『도덕의 기초에 대하여』(1840)에서 체계화된다."],
+    "연민":["연민(Mitleid, 同情)","§67. 남의 고통을 자기 것처럼 함께 느끼는 태도. 개인화 원리를 뚫은 상태에서만 가능하며, 참된 덕의 유일한 뿌리다. '나와 남'의 벽이 얇아진 정도만큼 연민이 깊어진다. 쇼펜하우어에게 도덕은 형이상학의 응용이지, 이성의 의무 부여가 아니다. 이 논지가 니체의 격렬한 반박(연민 도덕 비판)을 부른다."],
+    "타트트밤아시":["tat tvam asi","산스크리트로 '네가 곧 그것이다.' 우파니샤드의 유명한 명제. 나와 세계의 근원적 동일성을 표현한다. 쇼펜하우어는 이 명제를 자기 형이상학의 정수로 인용한다 — 개인화 원리를 뚫으면 '남'이 곧 '나'임이 드러난다."],
+
+    "삶에의의지":["삶에의 의지(Wille zum Leben)","의지가 자기를 유지·연장하려는 근본 충동. 개별 개체가 삶을 원함, 종이 자기를 재생산함, 진화가 계속됨 — 모두가 이 '삶에의 의지'의 나타남이다. 이 개념이 후에 니체의 <b>힘에의 의지(Wille zur Macht)</b>로 변형된다."],
+    "긍정":["긍정(Bejahung)","§60. 삶에의 의지에 자기를 내맡기고 그것대로 사는 태도. 정상적 인간 대부분의 상태다. 결혼·자녀 낳기·생업 유지 등이 모두 이 긍정의 표현. 유의: 쇼펜하우어는 이 긍정 자체를 도덕적으로 비난하지 않는다 — 그것은 자연스러운 것이다. 그러나 그것이 <b>궁극 진리</b>가 아니라는 데 그의 요점이 있다."],
+    "절대적자유":["의지의 절대적 자유","§55. 사물 자체인 의지는 근거율에 종속되지 않으므로 <b>자유</b>다. 그러나 이 자유는 개체 층위가 아니라 <b>형이상학적</b>이다. 개별 인간의 개별 행위는 동기(내적 인과)에 따라 필연적이다. 개체의 <b>성격(intelligibler Charakter)</b>이 자유롭게 선택된 것이지, 그 성격에서 나오는 개별 행위가 자유로운 것이 아니다."],
+    "자살":["자살에 대하여","§69. 쇼펜하우어는 자살을 도덕적으로 비난하지 않지만 <b>형이상학적으로는 오해</b>라 진단한다. 자살자는 삶의 조건(고통)을 부정할 뿐 <b>삶에의 의지 자체</b>를 부정하지 않는다 — 오히려 삶에 대한 격렬한 집착의 표현이다. 참된 부정은 삶에도 죽음에도 무관심한 성자의 태도다."],
+
+    "부정":["부정(Verneinung)","§68. 삶에의 의지 자체를 지양하는 태도. 성자·부처·기독교 신비주의자의 삶. 원함 자체를 지양하므로 결핍이 없고, 결핍이 없으므로 고통이 없다. 이것이 유일한 참된 구원이다."],
+    "금욕":["금욕(Askese)","의지 부정의 실천적 형태. 자발적 순결(성적 충동의 억제), 자발적 가난(소유욕의 억제), 인내(고통을 피하지 않음). 이 세 계기가 성자의 삶의 골격이다. 인도 요가 · 기독교 수도원 · 힌두 산니야신에게서 공통되게 나타난다."],
+    "순결":["자발적 순결","성적 충동을 자발적으로 지양함. 성적 충동은 삶에의 의지의 가장 강한 표현(다음 세대의 삶을 낳으려는 힘)이므로, 그 지양은 부정의 결정적 걸음이다. 개인이 자기 삶만이 아니라 <b>종의 삶</b>에 대해서도 손을 떼는 것."],
+    "자발적가난":["자발적 가난","소유욕을 자발적으로 지양함. 성자·수도자는 재산을 버리고 무소유의 삶을 산다. 이것은 강요된 가난(그저 못 가진 것)과 다르다 — 가질 수 있음에도 가지지 않는 것이다."],
+    "성자":["성자(Heilige)","의지 부정에 이른 인간. 인류사의 드문 사건이다. 예: 부처·요기·힌두 산니야신·기독교 신비주의자·아시시의 프란치스코. 이들의 삶은 이론적 지식이 아니라 <b>실천적 인식</b>의 완성이다. 자기 자신을 넘어 삶에의 의지 자체를 넘은 상태."],
+    "은총":["은총(Gnade)","기독교적 표현으로 부정 상태에 이르는 사건. 개인 노력으로 도달하는 것이 아니라 <b>주어지는</b> 것으로 경험된다. 쇼펜하우어는 이 표현을 자기 형이상학과 화해시킨다 — 은총은 신학적으로 신의 초자연적 개입이지만, 형이상학적으로는 자기 안의 의지가 자기 자신을 지양하는 순간이다."],
+    "기독교윤리":["기독교 교리와 윤리","§70. 쇼펜하우어는 기독교의 본질(원죄·구원·사랑·자기 부인)을 자기 의지 형이상학의 언어로 재해석한다. 원죄는 삶에의 의지의 긍정, 구원은 의지 부정, 사랑은 연민이다. 이런 해석은 <b>정통 신학</b>이 아니라 <b>철학적 심층 독해</b>이며, 그 결과 기독교와 불교·힌두교가 근본에서 같은 진리를 표현한다는 결론에 이른다."],
+    "브라만":["브라만 · 아트만","힌두교 베단타 철학의 궁극 실재. 브라만은 우주의 근원, 아트만은 자기의 본질. '아트만은 브라만이다(tat tvam asi)'는 우파니샤드의 정수. 쇼펜하우어는 이 인도 사상을 서양에 소개한 초기 학자이며, 이 명제를 자기 형이상학의 정수로 인용한다."],
+    "열반":["열반(涅槃, Nirvana)","불교의 궁극 상태. 문자 그대로 '꺼짐' — 의지의 불꽃이 꺼진 상태. 쇼펜하우어에서 이는 곧 <b>의지 부정</b>의 완성이다. 유의: 열반은 무기력한 사후 상태가 아니라 성자가 <b>이 삶에서</b> 이르는 상태다. 저작의 마지막 문장 '의지가 없는 자에게 세계는 무(無)다'가 이 의미를 담고 있다."],
+    "무":["무(無, Nichts)","§71 저작의 마지막 개념. '의지가 없는 자에게 이 세계는 무다.' 이 '무'는 절대적 허무가 아니라 <b>상대적</b> 무다 — 삶에의 의지의 관점에서는 아무것도 아닌 것이지만, 성자의 관점에서는 오히려 <b>참된 있음</b>일 수 있다. 이 이중성이 쇼펜하우어를 단순 허무주의자와 구별짓는다."],
+    "무에의의지":["무에의 의지","의지가 자기 자신을 지양하려는 방향으로 향한 것 — 부정의 실천적 표현. 유의: '무를 원함'이 아니라 '원함이 자기 자신을 원치 않게 됨'이다. 이 자기 지양이 곧 구원이다."]
+  };
+
+  function isMobile(){ return window.innerWidth <= 640; }
+
+  var svgModal = document.getElementById('svgModal');
+  var svgModalBody = document.getElementById('smBody');
+  var svgModalClose = document.getElementById('smClose');
+  var savedBodyOverflow = '';
+
+  function openSvgModal(sourceSvg){
+    var clone = sourceSvg.cloneNode(true);
+    clone.removeAttribute('style');
+    svgModalBody.innerHTML = '';
+    svgModalBody.appendChild(clone);
+    svgModal.classList.add('on');
+    svgModal.setAttribute('aria-hidden', 'false');
+    savedBodyOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    hideTip();
+    try { history.pushState({ svgModalOpen: true }, ''); } catch(_){}
+  }
+  function closeSvgModal(fromPopstate){
+    if(!svgModal.classList.contains('on')) return;
+    svgModal.classList.remove('on');
+    svgModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = savedBodyOverflow || '';
+    svgModalBody.innerHTML = '';
+    if(fromPopstate !== true){
+      try{ if(history.state && history.state.svgModalOpen) history.back(); } catch(_){}
+    }
+  }
+  window.addEventListener('popstate', function(){
+    if(svgModal.classList.contains('on')) closeSvgModal(true);
+  });
+  svgModalClose.addEventListener('click', function(){ closeSvgModal(false); });
+  svgModal.addEventListener('click', function(e){
+    if(e.target === svgModal) closeSvgModal(false);
+  });
+
+  document.querySelectorAll('.dp-svg').forEach(function(svg){
+    if(svg.parentNode && svg.parentNode.classList &&
+       svg.parentNode.classList.contains('dp-svg-wrap')) return;
+    var outer = document.createElement('div');
+    outer.className = 'dp-svg-outer';
+    var wrap = document.createElement('div');
+    wrap.className = 'dp-svg-wrap';
+    svg.parentNode.insertBefore(outer, svg);
+    outer.appendChild(wrap);
+    wrap.appendChild(svg);
+    outer.addEventListener('click', function(){
+      if(!isMobile()) return;
+      openSvgModal(svg);
+    });
+  });
+
+  var terms = document.querySelectorAll('.term');
+  terms.forEach(function(t){
+    var b = t.querySelector('b');
+    if(!b) return;
+    var key = b.textContent.trim();
+    if(G[key]){
+      t.classList.add('has-def');
+      t.setAttribute('tabindex','0');
+      t.dataset.k = key;
+    }
+  });
+
+  var tip = document.getElementById('defTip');
+  var elHan = document.getElementById('defHan');
+  var elKor = document.getElementById('defKor');
+  var elBody = document.getElementById('defBody');
+  var closeBtn = document.getElementById('defClose');
+  var current = null;
+
+  function showTip(target, key){
+    var d = G[key]; if(!d) return;
+    elHan.textContent = key;
+    elKor.textContent = d[0] || '';
+    elBody.innerHTML = d[1] || '';
+    tip.classList.add('on');
+    if(current) current.classList.remove('active');
+    current = target;
+    current.classList.add('active');
+    if(tip.scrollTop) tip.scrollTop = 0;
+    if(isMobile()){
+      tip.style.left = '';
+      tip.style.top = '';
+      return;
+    }
+    var r = target.getBoundingClientRect();
+    var tw = tip.offsetWidth, th = tip.offsetHeight;
+    var vw = window.innerWidth, vh = window.innerHeight;
+    var left = r.left + r.width/2 - tw/2;
+    var top = r.bottom + 8;
+    if(left < 8) left = 8;
+    if(left + tw > vw - 8) left = vw - 8 - tw;
+    if(top + th > vh - 8) top = r.top - 8 - th;
+    if(top < 8) top = 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+  function hideTip(){
+    tip.classList.remove('on');
+    if(current){ current.classList.remove('active'); current = null; }
+  }
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('.term.has-def');
+    if(t){
+      e.preventDefault();
+      if(current === t){ hideTip(); return; }
+      showTip(t, t.dataset.k);
+      return;
+    }
+    if(!e.target.closest('#defTip')) hideTip();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      if(svgModal.classList.contains('on')) closeSvgModal(false);
+      else hideTip();
+    }
+    if(e.key === 'Enter' || e.key === ' '){
+      var t = document.activeElement;
+      if(t && t.classList.contains('has-def')){
+        e.preventDefault();
+        if(current === t) hideTip();
+        else showTip(t, t.dataset.k);
+      }
+    }
+  });
+  closeBtn.addEventListener('click', hideTip);
+  window.addEventListener('resize', function(){
+    if(!tip.classList.contains('on')) return;
+    if(isMobile()){ tip.style.left=''; tip.style.top=''; }
+    else if(current){ showTip(current, current.dataset.k); }
+  });
+  window.addEventListener('scroll', function(e){
+    if(isMobile()) return;
+    hideTip();
+  }, true);
+})();
+</script>
+</body></html>
